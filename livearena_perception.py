@@ -43,7 +43,8 @@ class PerceptionState:
     active_slot: Optional[int] = None
     enemy_states: List[Dict[str, Any]] = field(default_factory=list)
     ally_states: Dict[int, Dict[str, Any]] = field(default_factory=dict)
-    skill_states: Dict[str, Dict[str, Any]] = field(default_factory=dict)
+    skill_states: Dict[str, Any] = field(default_factory=dict)
+    selected_family: Optional[str] = None
     confidence: float = 0.0
     notes: List[str] = field(default_factory=list)
 
@@ -65,6 +66,7 @@ class PerceptionState:
             enemy_states=current.enemy_states,
             ally_states=current.ally_states,
             skill_states=current.skill_states,
+            selected_family=current.selected_family,
             confidence=current.confidence,
             notes=list(current.notes),
         )
@@ -77,8 +79,10 @@ class PerceptionState:
             merged.active_slot = previous.active_slot
             merged.notes.append("active-slot-stable-fallback")
 
+        # If the new frame is weak overall, prefer the previous stronger belief.
         if current.confidence < 0.45 and previous.confidence >= 0.45:
             merged.confidence = previous.confidence
+            merged.selected_family = merged.selected_family or previous.selected_family
             if current.active_slot is None:
                 merged.active_slot = previous.active_slot
 
