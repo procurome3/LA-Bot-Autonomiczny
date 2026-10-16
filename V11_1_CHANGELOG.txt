@@ -1,0 +1,9 @@
+V11.1
+- skill ID pinned to physical button index A1=0 A2=1 A3=2 A4=3
+- cooldown/disabled filtering by HSV brightness/saturation
+- explicit per-champion skill priority
+- target delay 140-220ms after skill click
+- fresh target scan after selecting single-target skill
+- dynamic target X from actual enemy HP bar
+- one target-only retry if action is not confirmed
+- no bilder/PNG in package

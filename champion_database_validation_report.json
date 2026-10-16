@@ -1,0 +1,4662 @@
+{
+  "errors": [],
+  "coverage_gaps": [],
+  "semantic_review": [
+    {
+      "path": "abbess.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "abbess.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "acelin_the_stalwart.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "acrizia.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "acrizia.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "admiral_blacktusk.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ailil.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alatreon_blademaster.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alatreon_blademaster.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alatreon_blademaster.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alaz_the_sunbearer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alaz_the_sunbearer.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "alaz_the_sunbearer.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "alice_the_wanderer.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alice_the_wanderer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alice_the_wanderer.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alice_the_wanderer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alsgor_crimsonhorn.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "alsgor_crimsonhorn.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "altan.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "amoch_the_first_satrap.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "anaxia_the_reborn.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "anaxia_the_reborn.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "anaxia_the_reborn.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "anaxia_the_reborn.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "anaxia_the_reborn.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "androc_the_glorious.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "androc_the_glorious.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "androc_the_glorious.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "androc_the_glorious.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "angar.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "angar.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ankora.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ankora.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ankora.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ankora.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "aphidus_the_hivelord.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "april_oneil.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "april_oneil.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arachoa_moonspinner.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arachoa_moonspinner.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arachoa_moonspinner.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arachoa_moonspinner.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "aragaz_wyldking.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "aratheia_corpseflower.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "archbishop_pinthroy.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "archbishop_pinthroy.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "aria_the_golden_hope.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "aria_the_golden_hope.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "armanz_the_magnificent.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arne_the_white.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arnorn_the_shining.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arnorn_the_shining.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "arnorn_the_shining.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "artak.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ashnar_dragonsoul.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ashnar_dragonsoul.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ashnar_dragonsoul.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ashnar_dragonsoul.alternate.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "ashnar_dragonsoul.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "astralith.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "astralith.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "astralon.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "astralon.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "authoratrix_lamasu.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ba_satha.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bad_el_kazar.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "baerd_the_broad.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "balar_the_lost.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "balar_the_lost.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bambus_fourleaf.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bambus_fourleaf.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bambus_fourleaf.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "baron.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "basileus_roanas.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "basileus_roanas.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "basim_ibn_ishaq.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "basim_ibn_ishaq.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "basim_ibn_ishaq.base.P2",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bayek.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bayek.base.P2",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "belanor.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "belanor.base.A4",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "belletar_mage_slayer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "belz_the_reckoner.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "big_un.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bivald_of_the_thorn.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bivald_of_the_thorn.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bivald_of_the_thorn.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "black_knight.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bladechorister_caldor.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bladechorister_caldor.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "blind_seer.base.A1",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "blizaar_the_howler.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "blood_marchioness_mina.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "blood_marchioness_mina.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "blood_marchioness_mina.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "blood_marchioness_mina.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "blood_marchioness_mina.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "blood_marchioness_mina.base.P2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "bolint_freewalker.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "boragar_the_elder.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "boragar_the_elder.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "brakus_the_shifter.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "brewguard_jeroboam.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "brewguard_jeroboam.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "candraphon.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "candraphon.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "caoilte_the_asharrow.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "caoilte_the_asharrow.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cardiel.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cardiel.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cardiel.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cecilia_the_red_hope.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "celendiel_the_opal_guardian.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "chaagur.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "chaagur.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "chalco_the_blind.base.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "chalco_the_blind.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cheshire_cat.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "chronicler_adelyn.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "cillian_the_lucky.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cinda_forgeheart.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cinda_forgeheart.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cinda_forgeheart.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cinda_forgeheart.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cinda_forgeheart.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cinda_forgeheart.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "claidna.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "claidna.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "cleopterix.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "corvis_the_corruptor.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "countess_lix.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "craklin_the_blackened.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "crohnam.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "crohnam.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cruetraxa.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cruetraxa.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cupidus.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "cupidus.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "danag_skullreap.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "danag_skullreap.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "danag_skullreap.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "danag_skullreap.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "deliana.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "diamant_coppercoin.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "donatello.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "dorothy_gale.base.A3",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "dorothy_gale.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "dorothy_gale.base.P2",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "dracomorph.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "drexthar_bloodtwin.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "drokgul_the_gaunt.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "duchess_lilitu.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "dune_herald_zaharis.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "dune_herald_zaharis.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "dune_herald_zaharis.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "dune_lord_greggor.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "edward_kenway.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "edward_kenway.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "edward_kenway.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "edward_kenway.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "edward_kenway.base.P2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "elder_skarg.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "elder_skarg.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "elder_skarg.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "elegaius.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "elegaius.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "elenaril.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "elenaril.base.A3",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "embrys.alternate.A1",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "embrys.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "embrys.alternate.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "embrys.base.A1",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "embrys.base.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "embrys.base.A3",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "embrys.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "emic_trunkheart.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "eostrid_dreamsong.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "errol.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "esme_the_dancer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "esme_the_dancer.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "esme_the_dancer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ezio_auditore.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ezio_auditore.base.P2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fabian.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fabian.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fabian.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fabian.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "falmond_mournsword.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "falmond_mournsword.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "fatalis_blademaster.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fatalis_blademaster.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fatalis_blademaster.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fatalis_blademaster.base.A4",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "firrol_the_barkhorn.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "firrol_the_barkhorn.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "firrol_the_barkhorn.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "first_ax_tuskkor.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "first_ax_tuskkor.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "fjorad_wolfheart.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fjorad_wolfheart.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fjorad_wolfheart.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fjorad_wolfheart.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "folan_silverhart.base.A3",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "folan_silverhart.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "foli.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fortus.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "freyja_fateweaver.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "frolni_the_mechanist.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "frolni_the_mechanist.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "frolni_the_mechanist.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "frolni_the_mechanist.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "fyna_blade_of_aravia.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "fyna_blade_of_aravia.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gaellut_son_of_the_pact.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gaius_the_gleeful.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "galathir.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "galathir.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "galathir.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "galleus_bloodcrest.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "galleus_bloodcrest.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "galleus_bloodcrest.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "galleus_bloodcrest.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gamuran.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "gamuran.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gamuran.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "gaspard_the_accused.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gaspard_the_accused.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gaspard_the_accused.base.P2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "genzin.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "genzin.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gharol_bloodmaul.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gharol_bloodmaul.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gharol_bloodmaul.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gharol_bloodmaul.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gharol_bloodmaul.alternate.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "giath_the_truthshield.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gizmak_the_terrible.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gizmak_the_terrible.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gizmak_the_terrible.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gizmak_the_terrible.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gizmak_the_terrible.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "glaicad_of_the_meltwater.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "glaicad_of_the_meltwater.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "glaicad_of_the_meltwater.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "gliseah.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "gliseah.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "glorious_pallas.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gnut.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gnut.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "goffred_brassclad.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gomlok_skyhide.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gomlok_skyhide.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gomlok_skyhide.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "graazur_irongut.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gracchos_turn_drake.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "granyt_doorkeep.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "greenwarden_ruarc.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gretel_hagbane.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gretel_hagbane.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gretel_hagbane.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "grohak_the_bloodied.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gronjarr.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "grugtha_darkseer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "grugtha_darkseer.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gurgoh_the_augur.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gurptuk_moss_beard.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "guurda_bogbrew.base.A1",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "guurda_bogbrew.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "gwyndolin_the_silent.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "haggibah_the_nestmaid.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hansel_witchhunter.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hansel_witchhunter.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hansel_witchhunter.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "harima.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "harima.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "harima.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "harvest_jack.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "harvest_jack.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "harvest_jack.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "he_man.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hegemon.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "heinrik_demondoom.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "heinrik_demondoom.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "heinrik_demondoom.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "helicath.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "helicath.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "helior.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "helior.base.A3",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "helior.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hephraak.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hephraak.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hierophant_lazarius.alternate.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "hierophant_lazarius.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hierophant_lazarius.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "high_keeper_prysma.base.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "high_keeper_prysma.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "highmother_maud.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hilvi_the_rime_called.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hilvi_the_rime_called.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hilvi_the_rime_called.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hilvi_the_rime_called.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "holguk_of_the_hallowsights.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "holsring.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "holsring.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "holsring.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hurndig.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "hurndig.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "iron_brago.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "iron_brago.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "ishiyama_the_immovable.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ishiyama_the_immovable.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ishiyama_the_immovable.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "iudex_artor.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "jagg_bonesaw.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "jetni_the_giant.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "jetni_the_giant.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "jintoro.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "jintoro.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "joan.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "joan.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "joan.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "joan.base.A3",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "joan.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kaja_the_wry.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kaja_the_wry.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kaja_the_wry.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kaja_the_wry.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kalvalax.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karato_foxhunter.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karato_foxhunter.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karilon_the_ringer.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karnage_the_anarch.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karnage_the_anarch.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karnage_the_anarch.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karnage_the_anarch.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "karnage_the_anarch.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kassandra.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kassandra.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kassandra.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kassandra.base.P2",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "keberon_the_underflame.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "keberon_the_underflame.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "keberon_the_underflame.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kerin_the_harvester.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "khamir_scald_eye.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "khoronar.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "khoronar.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "khoronar.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "khoronar.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "king_gallcobar.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "king_garog.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "king_garog.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "klaazag_keyhulk.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "klaazag_keyhulk.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "knave_of_hearts.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "knosson_the_bronze_bull.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "knosson_the_bronze_bull.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "komidus.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "komidus.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "konstantin_the_dayborn.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "konstantin_the_dayborn.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "konstantin_the_dayborn.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "korugar_death_bell.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kosk_of_two_skins.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kosk_of_two_skins.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "kosk_of_two_skins.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "krokhad_the_throatripper.base.A1",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "krokhad_the_throatripper.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "krokhad_the_throatripper.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "krokhad_the_throatripper.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "krokmar_the_devourer.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "krokmar_the_devourer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kroz_wallbreaker.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kurosa_the_covetous.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kurosa_the_covetous.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "kurosa_the_covetous.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "kyoku.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_kimi.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_kimi.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_noelle.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_noelle.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_noelle.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_noelle.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lady_of_ireth.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lanakis_the_chosen.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "legate_teox.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "leminisi_the_gold_wing.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "leminisi_the_gold_wing.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "leminisi_the_gold_wing.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "leminisi_the_gold_wing.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "leonardo.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "little_miss_annie.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "little_miss_annie.base.P2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "loki_the_deceiver.base.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "loki_the_deceiver.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "loki_the_deceiver.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lonatharil.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lonatharil.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "lord_champfort.base.P2",
+      "flags": [
+        "same_name_passive_variants_in_source"
+      ]
+    },
+    {
+      "path": "lord_champfort.base.P2",
+      "flags": [
+        "source_description_empty"
+      ]
+    },
+    {
+      "path": "lord_shazar.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "losan_kleth.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lugan_the_steadfast.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lydia_the_deathsiren.base.A1",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "lydia_the_deathsiren.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mad_hatter.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "mad_hatter.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "maranix.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "maria.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "maria.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "maria.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "maria.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "marichka_the_unbreakable.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "marichka_the_unbreakable.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "marichka_the_unbreakable.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "marius.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "masahiro_the_bell_monk.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "masahiro_the_bell_monk.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mathias_blackflail.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "matriarch_zarguna.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "matriarch_zarguna.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "mavara.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mavara.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mavara.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "mezomel_luperfang.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mezomel_luperfang.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "michelangelo.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "michelangelo.base.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "michelangelo.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "michelangelo.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "michinaki.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mighty_ukko.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mighty_ukko.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "minaya.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "minaya.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "minaya.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mithrala.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "miyoko_flower_of_yakai.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "miyoko_flower_of_yakai.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "miyoko_flower_of_yakai.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "miyoko_flower_of_yakai.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "modo_of_the_peal.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "modo_of_the_peal.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "modo_of_the_peal.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "morrigaine.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mother_cybele.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "mother_cybele.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nais.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nais.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "nais.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nais.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nais.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "nari_the_lucky.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "narma_the_returned.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nekhret.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nekhret.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nell_blackteeth.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nell_blackteeth.alternate.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nell_blackteeth.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nell_blackteeth.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "niamhe_spear_of_nyresa.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "niamhe_spear_of_nyresa.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ninja.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "nobel.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "noct_the_paralyzer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nogdar_the_headhunter.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "nogdar_the_headhunter.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "noldua_the_gloaming.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "noldua_the_gloaming.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "noldua_the_gloaming.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "noldua_the_gloaming.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "odin_faefather.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "odin_faefather.base.P",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "oella.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "oella.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "onryo_ieyasu.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "onryo_ieyasu.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "onryo_ieyasu.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "opardin_clanfather.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "orynyx_mindcrawler.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "orynyx_mindcrawler.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "osgrun_the_defiler.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "osgrun_the_defiler.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "osgrun_the_defiler.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "owein_winterflame.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "owein_winterflame.base.A3",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "owein_winterflame.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ozilda_the_wicked.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ozilda_the_wicked.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "packmaster_shyek.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "packmaster_shyek.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pelagus_the_wavewalker.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pelops.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pelops.base.A3",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pelops.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pheidi_tealcrest.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "phemo_the_shepherd.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "phemo_the_shepherd.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "polara_fireheart.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "polara_fireheart.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "polara_fireheart.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pontiff_augustin.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pontiff_augustin.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "praeva_the_slitherer.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "praeva_the_slitherer.base.A3",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "praeva_the_slitherer.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "predator.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "predator.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "prince_kymar.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "pythion.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "pyxniel.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "queen_eva.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "queen_of_hearts.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "queen_of_hearts.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "quintus_the_triumphant.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "quintus_the_triumphant.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "quintus_the_triumphant.base.A3",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "r_nergigante_archer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "r_nergigante_archer.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "r_nergigante_archer.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raf_matab.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raf_matab.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raglin.base.A3",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "rakka_viletide.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ramantu_drakesblood.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ramantu_drakesblood.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ramantu_drakesblood.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raphael.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raphael.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raphael.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "raphael.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "rathalos_blademaster.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "rathalos_blademaster.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "rathalos_blademaster.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "razelvarg.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "rhaia_the_mourned.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "riho_bonespear.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "robar.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "robar.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ronda.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ronda.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "roric_wyrmbane.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "rotos_the_lost_groom.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "rotos_the_lost_groom.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "roxam.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "roxam.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "royal_huntsman.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "royal_huntsman.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ruel_the_huntmaster.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sabrael_the_distant.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sabrael_the_distant.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "sabrael_the_distant.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sabrael_the_distant.alternate.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sabrael_the_distant.alternate.A3",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sabrael_the_distant.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "saito.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "saito.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "saito.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "saito.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "samar_gemcursed.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "samson_the_masher.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "searsha_the_charred.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "senna_amberheart.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "septimus.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "septimus.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sethallia.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sethallia.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "shamrock.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "shamrock.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "shemnath.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "shredder.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "shu_zhen.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "shu_zhen.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "sicia_flametongue.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sicia_flametongue.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "siegfrund_the_nephilim.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "siegfrund_the_nephilim.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "siegfrund_the_nephilim.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "siegfrund_the_nephilim.base.P2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sigmund_the_highshield.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "siphi.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "siphi.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sir_nicholas.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sir_nicholas.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sir_nicholas.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sir_nicholas.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "skeletor.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "skeletor.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "skorid_the_halfspawn.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "skull_lord_var_gall.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "skull_lord_var_gall.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "skull_lord_var_gall.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "skull_lord_var_gall.base.P2",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "sniktraak.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "solanar_the_gleaming.base.A1",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "solanar_the_gleaming.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "solanar_the_gleaming.base.A3",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "solanar_the_gleaming.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "soulless.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "staltus_dragonbane.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "staltus_dragonbane.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "stokk_the_broken.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "storm_herald_hekaton.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "storm_herald_hekaton.base.A2",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "storm_herald_hekaton.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "strategos_islin.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sulfuryion.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sun_wukong.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sun_wukong.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "supreme_athel.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "supreme_athel.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "supreme_elhain.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "supreme_galek.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "supreme_galek.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "supreme_kael.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "swarmspeaker_zyclic.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "swarmspeaker_zyclic.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "sydax_king_killer.base.P",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "talenna_soulseer.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "talenna_soulseer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "taras_the_fierce.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "taras_the_fierce.base.P2",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "teela_goremane.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tekteon.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "teodor_the_savant.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "tetsuya_the_deliverer.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tetsuya_the_deliverer.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tetsuya_the_deliverer.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "teumesia.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "thayla_hammerhorn.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "thayla_hammerhorn.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_calamitus.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_calamitus.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_cowardly_lion.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_incarnate.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_incarnate.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_incarnate.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_incarnate.base.P2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_scarecrow.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_scarecrow.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_tin_woodman.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_tin_woodman.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "the_tin_woodman.base.P2",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "the_tin_woodman.base.P3",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "theimios_the_everdrinker.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "theimios_the_everdrinker.base.P2",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "theodosia.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "theodosia.alternate.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "theodosia.alternate.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "theodosia.alternate.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tholin_foulbeard.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tholin_foulbeard.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tholin_foulbeard.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "thralia_she_who_stands.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "timit_the_fool.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "timit_the_fool.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "timit_the_fool.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "titus_blackplume.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "titus_blackplume.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "titus_blackplume.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "titus_blackplume.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "togron_the_conjoined.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "togron_the_conjoined.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tomb_lord.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tomb_lord.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tomb_lord.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tormin_the_cold.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "toshiro_the_bloody.base.A2",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "toshiro_the_bloody.alternate.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "tramaria.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tribune_herakletes.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tribune_herakletes.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tribune_herakletes.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "truath.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "truath.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "trunda_giltmallet.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "tuhanarak.base.A2",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "turvold.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "tyrant_ixlimor.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "ugir_the_wyrmeater.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ugir_the_wyrmeater.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ultan_of_the_shell.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ultan_of_the_shell.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ultan_of_the_shell.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ultimate_death_knight.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ultimate_death_knight.base.P2",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "underpriest_brogni.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "urost_the_soulcage.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "ursuga_warcaller.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "uzol_of_the_jade.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "uzol_of_the_jade.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "uzol_of_the_jade.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "valkanen.base.A1",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "valkanen.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "valkanen.base.A4",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "valkyrie.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "valkyrie.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "vallaryn_the_equalizer.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vallaryn_the_equalizer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "varkos_headsplitter.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "varkos_headsplitter.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "varl_the_destroyer.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "vasal_of_the_seal.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vault_keeper_wixwell.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "venalicia_thrallmother.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "venalicia_thrallmother.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "venus.base.A4",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "vergumkaar.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vergumkaar.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vestele.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vestele.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vestele.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "vitrius_the_anointed.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vitrius_the_anointed.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vitrius_the_anointed.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vitrius_the_anointed.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vizier_ovelis.base.A3",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vizug_the_noxious.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "vulkanos_fumor.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "walking_tomb_dreng.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "walking_tomb_dreng.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "wallmaster_othorion.base.P",
+      "flags": [
+        "no_modeled_operation"
+      ]
+    },
+    {
+      "path": "warchief.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "wight_king_narses.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "wight_king_narses.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "wight_king_narses.base.P",
+      "flags": [
+        "unknown_status_name",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xalgaze_fangwall.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xena_warrior_princess.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xena_warrior_princess.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xena_warrior_princess.base.A3",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xena_warrior_princess.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xenomorph.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xenomorph.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xenomorph.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "xiloco_the_encrusted.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yakarl_the_scourge.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yannica.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yncensa_grail_bearer.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yoshi_the_drunkard.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yukimasa_demon_of_ice.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yukimasa_demon_of_ice.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yukimasa_demon_of_ice.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yumeko.base.A1",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yumeko.base.A2",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "yumeko.base.P",
+      "flags": [
+        "unmodeled_conditional_clause"
+      ]
+    },
+    {
+      "path": "zavia.base.A4",
+      "flags": [
+        "unknown_status_name"
+      ]
+    },
+    {
+      "path": "zinogre_blademaster.base.P",
+      "flags": [
+        "no_modeled_operation",
+        "unmodeled_conditional_clause"
+      ]
+    }
+  ],
+  "structurally_valid": true,
+  "coverage_complete": true,
+  "semantics_exhaustively_verified": false
+}

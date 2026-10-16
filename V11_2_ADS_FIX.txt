@@ -1,0 +1,22 @@
+V11.2 Ads Fix
+=================
+Analiza filmu 20260929-1359-16.5704907.mp4:
+
+Stary log:
+  closeAdds: Bastion visible -> no offer to close.
+
+W tym samym momencie na ekranie:
+  Hellbirth Skin Pack popup.
+
+Przyczyna:
+  Forge było widoczne ZA półprzezroczystą reklamą,
+  więc _bastion_visible() zwracało True zanim bot sprawdził X.
+
+Naprawa:
+- popup X ma zawsze pierwszeństwo przed Forge,
+- nowy closeadd_offer_x.PNG wycięty z filmu,
+- obecny closeadd_clickaway.PNG zostaje fallbackiem,
+- X musi być stabilny 2 klatki,
+- wyszukiwanie X ograniczone do okna RAID,
+- Bastion może zakończyć closeAdds dopiero gdy nie ma stabilnego X,
+- po kliknięciu najpierw sprawdzany jest kolejny popup, potem Bastion.

@@ -1,0 +1,9 @@
+V11.3
+- leader visual-first priority
+- unique green-border leader verification across all 5 slots
+- Your Turn is the only combat action gate
+- no skill analysis/log spam during opponent turn
+- broad dynamic skill bar restored
+- regular right-anchored physical skill cluster (2-5 icons)
+- fixes Ankora / champions whose skill bars shift left
+- keeps V11.1 targeting and V11.2 ad fix

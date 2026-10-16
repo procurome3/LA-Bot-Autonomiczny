@@ -1,0 +1,4 @@
+leader: {'owner': None, 'player_green': 0.0, 'opponent_green': 0.0}
+loading: {'owner': None, 'player_green': 0.0, 'opponent_green': 0.0}
+player_turn: {'owner': 'player', 'player_green': 0.09432962374138845, 'opponent_green': 0.0}
+opponent_turn: {'owner': 'opponent', 'player_green': 0.0, 'opponent_green': 0.0886404148436234}

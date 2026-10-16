@@ -1,0 +1,3451 @@
+{
+  "generated_at": "2026-10-16T05:11:23+00:00",
+  "generated_from": "HellHades factual identity API; alternate identity rows canonicalized",
+  "counts": {
+    "total": 430,
+    "legendary": 396,
+    "mythical": 34
+  },
+  "champions": [
+    {
+      "name": "Abbess",
+      "key": "abbess",
+      "rarity": "legendary",
+      "hellhades_slug": "abbess",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Acelin The Stalwart",
+      "key": "acelin_the_stalwart",
+      "rarity": "legendary",
+      "hellhades_slug": "acelin-the-stalwart",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Acrizia",
+      "key": "acrizia",
+      "rarity": "legendary",
+      "hellhades_slug": "acrizia",
+      "faction": "Dwarves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Admiral Blacktusk",
+      "key": "admiral_blacktusk",
+      "rarity": "legendary",
+      "hellhades_slug": "admiral-blacktusk",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ailil",
+      "key": "ailil",
+      "rarity": "legendary",
+      "hellhades_slug": "ailil",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Alatreon Blademaster",
+      "key": "alatreon_blademaster",
+      "rarity": "legendary",
+      "hellhades_slug": "alatreon-blademaster",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Alaz The Sunbearer",
+      "key": "alaz_the_sunbearer",
+      "rarity": "mythical",
+      "hellhades_slug": "alaz-the-sunbearer",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Aleksandr the Sharpshooter",
+      "key": "aleksandr_the_sharpshooter",
+      "rarity": "legendary",
+      "hellhades_slug": "aleksandr-the-sharpshooter",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Alice the Wanderer",
+      "key": "alice_the_wanderer",
+      "rarity": "legendary",
+      "hellhades_slug": "alice-the-wanderer",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Alsgor Crimsonhorn",
+      "key": "alsgor_crimsonhorn",
+      "rarity": "legendary",
+      "hellhades_slug": "alsgor-crimsonhorn",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Altan",
+      "key": "altan",
+      "rarity": "legendary",
+      "hellhades_slug": "altan",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Amoch the First Satrap",
+      "key": "amoch_the_first_satrap",
+      "rarity": "legendary",
+      "hellhades_slug": "amoch-the-first-satrap",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Anaxia The Reborn",
+      "key": "anaxia_the_reborn",
+      "rarity": "mythical",
+      "hellhades_slug": "anaxia-the-reborn",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Androc The Glorious",
+      "key": "androc_the_glorious",
+      "rarity": "mythical",
+      "hellhades_slug": "androc-the-glorious",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Angar",
+      "key": "angar",
+      "rarity": "legendary",
+      "hellhades_slug": "angar",
+      "faction": "Orcs",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Wight Queen Ankora",
+      "key": "ankora",
+      "rarity": "legendary",
+      "hellhades_slug": "wight-queen-ankora",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Aphidus The Hivelord",
+      "key": "aphidus_the_hivelord",
+      "rarity": "mythical",
+      "hellhades_slug": "aphidus-the-hivelord",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "April O’Neil",
+      "key": "april_oneil",
+      "rarity": "legendary",
+      "hellhades_slug": "april-oneil",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Arachoa Moonspinner",
+      "key": "arachoa_moonspinner",
+      "rarity": "mythical",
+      "hellhades_slug": "arachoa-moonspinner",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Aragaz Wyldking",
+      "key": "aragaz_wyldking",
+      "rarity": "legendary",
+      "hellhades_slug": "aragaz-wyldking",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Arashi the Riptide",
+      "key": "arashi_the_riptide",
+      "rarity": "legendary",
+      "hellhades_slug": "arashi-the-riptide",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Aratheia Corpseflower",
+      "key": "aratheia_corpseflower",
+      "rarity": "legendary",
+      "hellhades_slug": "aratheia-corpseflower",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Arbais the Stonethorn",
+      "key": "arbais_the_stonethorn",
+      "rarity": "mythical",
+      "hellhades_slug": "arbais-the-stonethorn",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Arbiter",
+      "key": "arbiter",
+      "rarity": "legendary",
+      "hellhades_slug": "arbiter",
+      "faction": "High Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Archbishop Pinthroy",
+      "key": "archbishop_pinthroy",
+      "rarity": "legendary",
+      "hellhades_slug": "archbishop-pinthroy",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Aria the Golden Hope",
+      "key": "aria_the_golden_hope",
+      "rarity": "legendary",
+      "hellhades_slug": "aria-the-golden-hope",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Arix",
+      "key": "arix",
+      "rarity": "legendary",
+      "hellhades_slug": "arix",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Armanz the Magnificent",
+      "key": "armanz_the_magnificent",
+      "rarity": "legendary",
+      "hellhades_slug": "armanz-the-magnificent",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Arne The White",
+      "key": "arne_the_white",
+      "rarity": "mythical",
+      "hellhades_slug": "arne-the-white",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Arnorn The Shining",
+      "key": "arnorn_the_shining",
+      "rarity": "legendary",
+      "hellhades_slug": "arnorn-the-shining",
+      "faction": "Dwarves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Artak",
+      "key": "artak",
+      "rarity": "legendary",
+      "hellhades_slug": "artak",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ash’nar Dragonsoul",
+      "key": "ashnar_dragonsoul",
+      "rarity": "mythical",
+      "hellhades_slug": "ashnar-dragonsoul",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Astralith",
+      "key": "astralith",
+      "rarity": "legendary",
+      "hellhades_slug": "astralith",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Astralon",
+      "key": "astralon",
+      "rarity": "legendary",
+      "hellhades_slug": "astralon",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Authoratrix Lamasu",
+      "key": "authoratrix_lamasu",
+      "rarity": "legendary",
+      "hellhades_slug": "authoratrix-lamasu",
+      "faction": "Demonspawn",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Ba Satha",
+      "key": "ba_satha",
+      "rarity": "legendary",
+      "hellhades_slug": "ba-satha",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bad-el-Kazar",
+      "key": "bad_el_kazar",
+      "rarity": "legendary",
+      "hellhades_slug": "bad-el-kazar",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Baerd the Broad",
+      "key": "baerd_the_broad",
+      "rarity": "legendary",
+      "hellhades_slug": "baerd-the-broad",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Balar the Lost",
+      "key": "balar_the_lost",
+      "rarity": "legendary",
+      "hellhades_slug": "balar-the-lost",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bambus Fourleaf",
+      "key": "bambus_fourleaf",
+      "rarity": "legendary",
+      "hellhades_slug": "bambus-fourleaf",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Baron",
+      "key": "baron",
+      "rarity": "legendary",
+      "hellhades_slug": "baron",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Basileus Roanas",
+      "key": "basileus_roanas",
+      "rarity": "legendary",
+      "hellhades_slug": "basileus-roanas",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Basim Ibn Ishaq",
+      "key": "basim_ibn_ishaq",
+      "rarity": "legendary",
+      "hellhades_slug": "basim-ibn-ishaq",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bayek",
+      "key": "bayek",
+      "rarity": "legendary",
+      "hellhades_slug": "bayek",
+      "faction": "Barbarians",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Belanor",
+      "key": "belanor",
+      "rarity": "legendary",
+      "hellhades_slug": "belanor",
+      "faction": "High Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Belletar Mage-slayer",
+      "key": "belletar_mage_slayer",
+      "rarity": "legendary",
+      "hellhades_slug": "belletar-mage-slayer",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Belz the Reckoner",
+      "key": "belz_the_reckoner",
+      "rarity": "legendary",
+      "hellhades_slug": "belz-the-reckoner",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Big ‘Un",
+      "key": "big_un",
+      "rarity": "legendary",
+      "hellhades_slug": "big-un",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bivald of the Thorn",
+      "key": "bivald_of_the_thorn",
+      "rarity": "legendary",
+      "hellhades_slug": "bivald-of-the-thorn",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Black Knight",
+      "key": "black_knight",
+      "rarity": "legendary",
+      "hellhades_slug": "black-knight",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bladechorister Caldor",
+      "key": "bladechorister_caldor",
+      "rarity": "legendary",
+      "hellhades_slug": "bladechorister-caldor",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Blind Seer",
+      "key": "blind_seer",
+      "rarity": "legendary",
+      "hellhades_slug": "blind-seer",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Blizaar The Howler",
+      "key": "blizaar_the_howler",
+      "rarity": "legendary",
+      "hellhades_slug": "blizaar-the-howler",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Blood Marchioness Mina",
+      "key": "blood_marchioness_mina",
+      "rarity": "mythical",
+      "hellhades_slug": "blood-marchioness-mina",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bloodgorged",
+      "key": "bloodgorged",
+      "rarity": "legendary",
+      "hellhades_slug": "bloodgorged",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bolint Freewalker",
+      "key": "bolint_freewalker",
+      "rarity": "legendary",
+      "hellhades_slug": "bolint-freewalker",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Boragar the Elder",
+      "key": "boragar_the_elder",
+      "rarity": "legendary",
+      "hellhades_slug": "boragar-the-elder",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Brakus the Shifter",
+      "key": "brakus_the_shifter",
+      "rarity": "legendary",
+      "hellhades_slug": "brakus-the-shifter",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Brewguard Jeroboam",
+      "key": "brewguard_jeroboam",
+      "rarity": "legendary",
+      "hellhades_slug": "brewguard-jeroboam",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Bystophus",
+      "key": "bystophus",
+      "rarity": "legendary",
+      "hellhades_slug": "bystophus",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Candraphon",
+      "key": "candraphon",
+      "rarity": "legendary",
+      "hellhades_slug": "candraphon",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Caoilte the Asharrow",
+      "key": "caoilte_the_asharrow",
+      "rarity": "legendary",
+      "hellhades_slug": "caoilte-the-asharrow",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Cardiel",
+      "key": "cardiel",
+      "rarity": "legendary",
+      "hellhades_slug": "cardiel",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Cecilia The Red Hope",
+      "key": "cecilia_the_red_hope",
+      "rarity": "legendary",
+      "hellhades_slug": "cecilia-the-red-hope",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Celendiel the Opal Guardian",
+      "key": "celendiel_the_opal_guardian",
+      "rarity": "legendary",
+      "hellhades_slug": "celendiel-the-opal-guardian",
+      "faction": "High Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Chaagur",
+      "key": "chaagur",
+      "rarity": "legendary",
+      "hellhades_slug": "chaagur",
+      "faction": "Lizardmen",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Chalco the Blind",
+      "key": "chalco_the_blind",
+      "rarity": "legendary",
+      "hellhades_slug": "chalco-the-blind",
+      "faction": "Demonspawn",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Cheshire Cat",
+      "key": "cheshire_cat",
+      "rarity": "legendary",
+      "hellhades_slug": "cheshire-cat",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Chronicler Adelyn",
+      "key": "chronicler_adelyn",
+      "rarity": "legendary",
+      "hellhades_slug": "chronicler-adelyn",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Cillian the Lucky",
+      "key": "cillian_the_lucky",
+      "rarity": "legendary",
+      "hellhades_slug": "cillian-the-lucky",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Cinda Forgeheart",
+      "key": "cinda_forgeheart",
+      "rarity": "mythical",
+      "hellhades_slug": "cinda-forgeheart",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Claidna",
+      "key": "claidna",
+      "rarity": "legendary",
+      "hellhades_slug": "claidna",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Cleopterix",
+      "key": "cleopterix",
+      "rarity": "legendary",
+      "hellhades_slug": "cleopterix",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Corvis the Corruptor",
+      "key": "corvis_the_corruptor",
+      "rarity": "legendary",
+      "hellhades_slug": "corvis-the-corruptor",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Countess Lix",
+      "key": "countess_lix",
+      "rarity": "legendary",
+      "hellhades_slug": "countess-lix",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Craklin the Blackened",
+      "key": "craklin_the_blackened",
+      "rarity": "legendary",
+      "hellhades_slug": "craklin-the-blackened",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Crohnam",
+      "key": "crohnam",
+      "rarity": "legendary",
+      "hellhades_slug": "crohnam",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Cromax Moonblood",
+      "key": "cromax_moonblood",
+      "rarity": "legendary",
+      "hellhades_slug": "cromax-moonblood",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Cruetraxa",
+      "key": "cruetraxa",
+      "rarity": "legendary",
+      "hellhades_slug": "cruetraxa",
+      "faction": "Demonspawn",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Crypt-King Graal",
+      "key": "crypt_king_graal",
+      "rarity": "legendary",
+      "hellhades_slug": "crypt-king-graal",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Cupidus",
+      "key": "cupidus",
+      "rarity": "legendary",
+      "hellhades_slug": "cupidus",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Danag Skullreap",
+      "key": "danag_skullreap",
+      "rarity": "legendary",
+      "hellhades_slug": "danag-skullreap",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Deliana",
+      "key": "deliana",
+      "rarity": "legendary",
+      "hellhades_slug": "deliana",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Diamant Coppercoin",
+      "key": "diamant_coppercoin",
+      "rarity": "legendary",
+      "hellhades_slug": "diamant-coppercoin",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Donatello",
+      "key": "donatello",
+      "rarity": "legendary",
+      "hellhades_slug": "donatello",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Dorothy Gale",
+      "key": "dorothy_gale",
+      "rarity": "legendary",
+      "hellhades_slug": "dorothy-gale",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Dracomorph",
+      "key": "dracomorph",
+      "rarity": "legendary",
+      "hellhades_slug": "dracomorph",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Drexthar Bloodtwin",
+      "key": "drexthar_bloodtwin",
+      "rarity": "legendary",
+      "hellhades_slug": "drexthar-bloodtwin",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Drokgul the Gaunt",
+      "key": "drokgul_the_gaunt",
+      "rarity": "legendary",
+      "hellhades_slug": "drokgul-the-gaunt",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Duchess Lilitu",
+      "key": "duchess_lilitu",
+      "rarity": "legendary",
+      "hellhades_slug": "duchess-lilitu",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Dune Herald Zaharis",
+      "key": "dune_herald_zaharis",
+      "rarity": "legendary",
+      "hellhades_slug": "dune-herald-zaharis",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Dune Lord Greggor",
+      "key": "dune_lord_greggor",
+      "rarity": "legendary",
+      "hellhades_slug": "dune-lord-greggor",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Edward Kenway",
+      "key": "edward_kenway",
+      "rarity": "legendary",
+      "hellhades_slug": "edward-kenway",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Elder Skarg",
+      "key": "elder_skarg",
+      "rarity": "legendary",
+      "hellhades_slug": "elder-skarg",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Elegaius",
+      "key": "elegaius",
+      "rarity": "legendary",
+      "hellhades_slug": "elegaius",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Elenaril",
+      "key": "elenaril",
+      "rarity": "legendary",
+      "hellhades_slug": "elenaril",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Elva Autumnborn",
+      "key": "elva_autumnborn",
+      "rarity": "legendary",
+      "hellhades_slug": "elva-autumnborn",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Embrys The Anomaly",
+      "key": "embrys",
+      "rarity": "mythical",
+      "hellhades_slug": "embrys-the-anomaly",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Emic Trunkheart",
+      "key": "emic_trunkheart",
+      "rarity": "legendary",
+      "hellhades_slug": "emic-trunkheart",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Eostrid Dreamsong",
+      "key": "eostrid_dreamsong",
+      "rarity": "legendary",
+      "hellhades_slug": "eostrid-dreamsong",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Errol",
+      "key": "errol",
+      "rarity": "legendary",
+      "hellhades_slug": "errol",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Esme the Dancer",
+      "key": "esme_the_dancer",
+      "rarity": "legendary",
+      "hellhades_slug": "esme-the-dancer",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ezio Auditore",
+      "key": "ezio_auditore",
+      "rarity": "legendary",
+      "hellhades_slug": "ezio-auditore",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lord Entertainer Fabian",
+      "key": "fabian",
+      "rarity": "legendary",
+      "hellhades_slug": "lord-entertainer-fabian",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Falmond Mournsword",
+      "key": "falmond_mournsword",
+      "rarity": "legendary",
+      "hellhades_slug": "falmond-mournsword",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Fatalis Blademaster",
+      "key": "fatalis_blademaster",
+      "rarity": "legendary",
+      "hellhades_slug": "fatalis-blademaster",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Firrol The Barkhorn",
+      "key": "firrol_the_barkhorn",
+      "rarity": "legendary",
+      "hellhades_slug": "firrol-the-barkhorn",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "First Ax Tuskkor",
+      "key": "first_ax_tuskkor",
+      "rarity": "legendary",
+      "hellhades_slug": "first-ax-tuskkor",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Fjorad Wolfheart",
+      "key": "fjorad_wolfheart",
+      "rarity": "mythical",
+      "hellhades_slug": "fjorad-wolfheart",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Folan Silverhart",
+      "key": "folan_silverhart",
+      "rarity": "legendary",
+      "hellhades_slug": "folan-silverhart",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Foli",
+      "key": "foli",
+      "rarity": "legendary",
+      "hellhades_slug": "foli",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Fortus",
+      "key": "fortus",
+      "rarity": "legendary",
+      "hellhades_slug": "fortus",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Freyja Fateweaver",
+      "key": "freyja_fateweaver",
+      "rarity": "legendary",
+      "hellhades_slug": "freyja-fateweaver",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Frolni the Mechanist",
+      "key": "frolni_the_mechanist",
+      "rarity": "mythical",
+      "hellhades_slug": "frolni-the-mechanist",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Fu-Shan",
+      "key": "fu_shan",
+      "rarity": "legendary",
+      "hellhades_slug": "fu-shan",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Fyna Blade Of Aravia",
+      "key": "fyna_blade_of_aravia",
+      "rarity": "legendary",
+      "hellhades_slug": "fyna-blade-of-aravia",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gaellut, Son of the Pact",
+      "key": "gaellut_son_of_the_pact",
+      "rarity": "legendary",
+      "hellhades_slug": "gaellut-son-of-the-pact",
+      "faction": "Orcs",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Gaius The Gleeful",
+      "key": "gaius_the_gleeful",
+      "rarity": "legendary",
+      "hellhades_slug": "gaius-the-gleeful",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Starsage Galathir",
+      "key": "galathir",
+      "rarity": "mythical",
+      "hellhades_slug": "starsage-galathir",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Galleus Bloodcrest",
+      "key": "galleus_bloodcrest",
+      "rarity": "mythical",
+      "hellhades_slug": "galleus-bloodcrest",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gamuran",
+      "key": "gamuran",
+      "rarity": "legendary",
+      "hellhades_slug": "gamuran",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gaspard the Accused",
+      "key": "gaspard_the_accused",
+      "rarity": "legendary",
+      "hellhades_slug": "gaspard-the-accused",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Genzin",
+      "key": "genzin",
+      "rarity": "legendary",
+      "hellhades_slug": "genzin",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Georgid the Breaker",
+      "key": "georgid_the_breaker",
+      "rarity": "legendary",
+      "hellhades_slug": "georgid-the-breaker",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Gharol Bloodmaul",
+      "key": "gharol_bloodmaul",
+      "rarity": "mythical",
+      "hellhades_slug": "gharol-bloodmaul",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ghostborn",
+      "key": "ghostborn",
+      "rarity": "legendary",
+      "hellhades_slug": "ghostborn",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Giath The Truthshield",
+      "key": "giath_the_truthshield",
+      "rarity": "legendary",
+      "hellhades_slug": "giath-the-truthshield",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ginro the Stork",
+      "key": "ginro_the_stork",
+      "rarity": "legendary",
+      "hellhades_slug": "ginro-the-stork",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Gizmak The Terrible",
+      "key": "gizmak_the_terrible",
+      "rarity": "mythical",
+      "hellhades_slug": "gizmak-the-terrible",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Glaicad Of The Meltwater",
+      "key": "glaicad_of_the_meltwater",
+      "rarity": "legendary",
+      "hellhades_slug": "glaicad-of-the-meltwater",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gliseah Soulguide",
+      "key": "gliseah",
+      "rarity": "legendary",
+      "hellhades_slug": "gliseah-soulguide",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Glorious Pallas",
+      "key": "glorious_pallas",
+      "rarity": "legendary",
+      "hellhades_slug": "glorious-pallas",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gnishak Verminlord",
+      "key": "gnishak_verminlord",
+      "rarity": "legendary",
+      "hellhades_slug": "gnishak-verminlord",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gnut",
+      "key": "gnut",
+      "rarity": "legendary",
+      "hellhades_slug": "gnut",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Goffred Brassclad",
+      "key": "goffred_brassclad",
+      "rarity": "legendary",
+      "hellhades_slug": "goffred-brassclad",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gomlok Skyhide",
+      "key": "gomlok_skyhide",
+      "rarity": "legendary",
+      "hellhades_slug": "gomlok-skyhide",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Graazur Irongut",
+      "key": "graazur_irongut",
+      "rarity": "legendary",
+      "hellhades_slug": "graazur-irongut",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Gracchos Turn-Drake",
+      "key": "gracchos_turn_drake",
+      "rarity": "legendary",
+      "hellhades_slug": "gracchos-turn-drake",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Grand Oak Padraig",
+      "key": "grand_oak_padraig",
+      "rarity": "legendary",
+      "hellhades_slug": "grand-oak-padraig",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Granyt Doorkeep",
+      "key": "granyt_doorkeep",
+      "rarity": "legendary",
+      "hellhades_slug": "granyt-doorkeep",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Greathoof Loriaca",
+      "key": "greathoof_loriaca",
+      "rarity": "legendary",
+      "hellhades_slug": "greathoof-loriaca",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Greenwarden Ruarc",
+      "key": "greenwarden_ruarc",
+      "rarity": "legendary",
+      "hellhades_slug": "greenwarden-ruarc",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gretel Hagbane",
+      "key": "gretel_hagbane",
+      "rarity": "legendary",
+      "hellhades_slug": "gretel-hagbane",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Grohak the Bloodied",
+      "key": "grohak_the_bloodied",
+      "rarity": "legendary",
+      "hellhades_slug": "grohak-the-bloodied",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gronjarr",
+      "key": "gronjarr",
+      "rarity": "legendary",
+      "hellhades_slug": "gronjarr",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Grugtha Darkseer",
+      "key": "grugtha_darkseer",
+      "rarity": "legendary",
+      "hellhades_slug": "grugtha-darkseer",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gurgoh the Augur",
+      "key": "gurgoh_the_augur",
+      "rarity": "legendary",
+      "hellhades_slug": "gurgoh-the-augur",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Gurptuk Moss-Beard",
+      "key": "gurptuk_moss_beard",
+      "rarity": "legendary",
+      "hellhades_slug": "gurptuk-moss-beard",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Guurda Bogbrew",
+      "key": "guurda_bogbrew",
+      "rarity": "legendary",
+      "hellhades_slug": "guurda-bogbrew",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Gwyndolin The Silent",
+      "key": "gwyndolin_the_silent",
+      "rarity": "legendary",
+      "hellhades_slug": "gwyndolin-the-silent",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Haggibah the Nestmaid",
+      "key": "haggibah_the_nestmaid",
+      "rarity": "legendary",
+      "hellhades_slug": "haggibah-the-nestmaid",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hakkorhn Smashlord",
+      "key": "hakkorhn_smashlord",
+      "rarity": "legendary",
+      "hellhades_slug": "hakkorhn-smashlord",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hansel Witchhunter",
+      "key": "hansel_witchhunter",
+      "rarity": "legendary",
+      "hellhades_slug": "hansel-witchhunter",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Harima",
+      "key": "harima",
+      "rarity": "legendary",
+      "hellhades_slug": "harima",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Harvest Jack",
+      "key": "harvest_jack",
+      "rarity": "legendary",
+      "hellhades_slug": "harvest-jack",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "He-Man",
+      "key": "he_man",
+      "rarity": "legendary",
+      "hellhades_slug": "he-man",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hegemon",
+      "key": "hegemon",
+      "rarity": "legendary",
+      "hellhades_slug": "hegemon",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Heinrik Demondoom",
+      "key": "heinrik_demondoom",
+      "rarity": "mythical",
+      "hellhades_slug": "heinrik-demondoom",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Helicath",
+      "key": "helicath",
+      "rarity": "legendary",
+      "hellhades_slug": "helicath",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Helior",
+      "key": "helior",
+      "rarity": "legendary",
+      "hellhades_slug": "helior",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hephraak",
+      "key": "hephraak",
+      "rarity": "legendary",
+      "hellhades_slug": "hephraak",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hierophant Lazarius",
+      "key": "hierophant_lazarius",
+      "rarity": "mythical",
+      "hellhades_slug": "hierophant-lazarius",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "High Keeper Prysma",
+      "key": "high_keeper_prysma",
+      "rarity": "legendary",
+      "hellhades_slug": "high-keeper-prysma",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Highmother Maud",
+      "key": "highmother_maud",
+      "rarity": "legendary",
+      "hellhades_slug": "highmother-maud",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hilvi The Rime-called",
+      "key": "hilvi_the_rime_called",
+      "rarity": "legendary",
+      "hellhades_slug": "hilvi-the-rime-called",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Holguk of the Hallowsights",
+      "key": "holguk_of_the_hallowsights",
+      "rarity": "legendary",
+      "hellhades_slug": "holguk-of-the-hallowsights",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Holsring",
+      "key": "holsring",
+      "rarity": "legendary",
+      "hellhades_slug": "holsring",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Hurndig",
+      "key": "hurndig",
+      "rarity": "legendary",
+      "hellhades_slug": "hurndig",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ignatius",
+      "key": "ignatius",
+      "rarity": "legendary",
+      "hellhades_slug": "ignatius",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Inithwe Bloodtwin",
+      "key": "inithwe_bloodtwin",
+      "rarity": "legendary",
+      "hellhades_slug": "inithwe-bloodtwin",
+      "faction": "Demonspawn",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Iron Brago",
+      "key": "iron_brago",
+      "rarity": "legendary",
+      "hellhades_slug": "iron-brago",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ishiyama The Immovable",
+      "key": "ishiyama_the_immovable",
+      "rarity": "legendary",
+      "hellhades_slug": "ishiyama-the-immovable",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ithos",
+      "key": "ithos",
+      "rarity": "legendary",
+      "hellhades_slug": "ithos",
+      "faction": "High Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Iudex Artor",
+      "key": "iudex_artor",
+      "rarity": "legendary",
+      "hellhades_slug": "iudex-artor",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Jagg Bonesaw",
+      "key": "jagg_bonesaw",
+      "rarity": "legendary",
+      "hellhades_slug": "jagg-bonesaw",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Jetni The Giant",
+      "key": "jetni_the_giant",
+      "rarity": "legendary",
+      "hellhades_slug": "jetni-the-giant",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Jingwon",
+      "key": "jingwon",
+      "rarity": "legendary",
+      "hellhades_slug": "jingwon",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Jintoro",
+      "key": "jintoro",
+      "rarity": "legendary",
+      "hellhades_slug": "jintoro",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Joan The Luminant",
+      "key": "joan",
+      "rarity": "mythical",
+      "hellhades_slug": "joan-the-luminant",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kaja the Wry",
+      "key": "kaja_the_wry",
+      "rarity": "legendary",
+      "hellhades_slug": "kaja-the-wry",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kalvalax",
+      "key": "kalvalax",
+      "rarity": "legendary",
+      "hellhades_slug": "kalvalax",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kantra the Cyclone",
+      "key": "kantra_the_cyclone",
+      "rarity": "legendary",
+      "hellhades_slug": "kantra-the-cyclone",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Karato Foxhunter",
+      "key": "karato_foxhunter",
+      "rarity": "legendary",
+      "hellhades_slug": "karato-foxhunter",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Karilon The Ringer",
+      "key": "karilon_the_ringer",
+      "rarity": "legendary",
+      "hellhades_slug": "karilon-the-ringer",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Karnage the Anarch",
+      "key": "karnage_the_anarch",
+      "rarity": "mythical",
+      "hellhades_slug": "karnage-the-anarch",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kassandra",
+      "key": "kassandra",
+      "rarity": "legendary",
+      "hellhades_slug": "kassandra",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kawn Branchbreaker",
+      "key": "kawn_branchbreaker",
+      "rarity": "legendary",
+      "hellhades_slug": "kawn-branchbreaker",
+      "faction": "Orcs",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Keberon the Underflame",
+      "key": "keberon_the_underflame",
+      "rarity": "legendary",
+      "hellhades_slug": "keberon-the-underflame",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Keeyra the Watcher",
+      "key": "keeyra_the_watcher",
+      "rarity": "legendary",
+      "hellhades_slug": "keeyra-the-watcher",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kerin the Harvester",
+      "key": "kerin_the_harvester",
+      "rarity": "legendary",
+      "hellhades_slug": "kerin-the-harvester",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Khamir Scald-eye",
+      "key": "khamir_scald_eye",
+      "rarity": "legendary",
+      "hellhades_slug": "khamir-scald-eye",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Khoronar",
+      "key": "khoronar",
+      "rarity": "legendary",
+      "hellhades_slug": "khoronar",
+      "faction": "Skinwalkers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "King Gallcobar",
+      "key": "king_gallcobar",
+      "rarity": "legendary",
+      "hellhades_slug": "king-gallcobar",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "King Garog",
+      "key": "king_garog",
+      "rarity": "legendary",
+      "hellhades_slug": "king-garog",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Klaazag Keyhulk",
+      "key": "klaazag_keyhulk",
+      "rarity": "legendary",
+      "hellhades_slug": "klaazag-keyhulk",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Knave of Hearts",
+      "key": "knave_of_hearts",
+      "rarity": "legendary",
+      "hellhades_slug": "knave-of-hearts",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Knosson the Bronze Bull",
+      "key": "knosson_the_bronze_bull",
+      "rarity": "legendary",
+      "hellhades_slug": "knosson-the-bronze-bull",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Komidus Darksmile",
+      "key": "komidus",
+      "rarity": "mythical",
+      "hellhades_slug": "komidus-darksmile",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Konstantin the Dayborn",
+      "key": "konstantin_the_dayborn",
+      "rarity": "legendary",
+      "hellhades_slug": "konstantin-the-dayborn",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Korugar Death-Bell",
+      "key": "korugar_death_bell",
+      "rarity": "legendary",
+      "hellhades_slug": "korugar-death-bell",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kosk of Two Skins",
+      "key": "kosk_of_two_skins",
+      "rarity": "legendary",
+      "hellhades_slug": "kosk-of-two-skins",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kreela Witch-Arm",
+      "key": "kreela_witch_arm",
+      "rarity": "legendary",
+      "hellhades_slug": "kreela-witch-arm",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Krisk the Ageless",
+      "key": "krisk_the_ageless",
+      "rarity": "legendary",
+      "hellhades_slug": "krisk-the-ageless",
+      "faction": "Lizardmen",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Night Queen Krixia",
+      "key": "krixia",
+      "rarity": "mythical",
+      "hellhades_slug": "night-queen-krixia",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kro’khad the Throatripper",
+      "key": "krokhad_the_throatripper",
+      "rarity": "legendary",
+      "hellhades_slug": "krokhad-the-throatripper",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Krok’mar the Devourer",
+      "key": "krokmar_the_devourer",
+      "rarity": "legendary",
+      "hellhades_slug": "krokmar-the-devourer",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kroz Wallbreaker",
+      "key": "kroz_wallbreaker",
+      "rarity": "legendary",
+      "hellhades_slug": "kroz-wallbreaker",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kurosa The Covetous",
+      "key": "kurosa_the_covetous",
+      "rarity": "mythical",
+      "hellhades_slug": "kurosa-the-covetous",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Kyoku",
+      "key": "kyoku",
+      "rarity": "legendary",
+      "hellhades_slug": "kyoku",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lady Kimi",
+      "key": "lady_kimi",
+      "rarity": "legendary",
+      "hellhades_slug": "lady-kimi",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lady Noelle",
+      "key": "lady_noelle",
+      "rarity": "legendary",
+      "hellhades_slug": "lady-noelle",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Lady of Ireth",
+      "key": "lady_of_ireth",
+      "rarity": "legendary",
+      "hellhades_slug": "lady-of-ireth",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lanakis the Chosen",
+      "key": "lanakis_the_chosen",
+      "rarity": "legendary",
+      "hellhades_slug": "lanakis-the-chosen",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Legate Teox",
+      "key": "legate_teox",
+      "rarity": "legendary",
+      "hellhades_slug": "legate-teox",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Leminisi the Gold-wing",
+      "key": "leminisi_the_gold_wing",
+      "rarity": "legendary",
+      "hellhades_slug": "leminisi-the-gold-wing",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Leonardo",
+      "key": "leonardo",
+      "rarity": "legendary",
+      "hellhades_slug": "leonardo",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Leorius the Proud",
+      "key": "leorius_the_proud",
+      "rarity": "legendary",
+      "hellhades_slug": "leorius-the-proud",
+      "faction": "Skinwalkers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Little Miss Annie",
+      "key": "little_miss_annie",
+      "rarity": "legendary",
+      "hellhades_slug": "little-miss-annie",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Loki the Deceiver",
+      "key": "loki_the_deceiver",
+      "rarity": "legendary",
+      "hellhades_slug": "loki-the-deceiver",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lonatharil",
+      "key": "lonatharil",
+      "rarity": "legendary",
+      "hellhades_slug": "lonatharil",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Longbeard",
+      "key": "longbeard",
+      "rarity": "legendary",
+      "hellhades_slug": "longbeard",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lord Champfort",
+      "key": "lord_champfort",
+      "rarity": "legendary",
+      "hellhades_slug": "lord-champfort",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lord Shazar",
+      "key": "lord_shazar",
+      "rarity": "legendary",
+      "hellhades_slug": "lord-shazar",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Losan K’Leth",
+      "key": "losan_kleth",
+      "rarity": "legendary",
+      "hellhades_slug": "losan-kleth",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lugan the Steadfast",
+      "key": "lugan_the_steadfast",
+      "rarity": "legendary",
+      "hellhades_slug": "lugan-the-steadfast",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lydia the Deathsiren",
+      "key": "lydia_the_deathsiren",
+      "rarity": "legendary",
+      "hellhades_slug": "lydia-the-deathsiren",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Lysanthir Beastbane",
+      "key": "lysanthir_beastbane",
+      "rarity": "legendary",
+      "hellhades_slug": "lysanthir-beastbane",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lyssandra",
+      "key": "lyssandra",
+      "rarity": "legendary",
+      "hellhades_slug": "lyssandra",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mad Hatter",
+      "key": "mad_hatter",
+      "rarity": "legendary",
+      "hellhades_slug": "mad-hatter",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Maranix",
+      "key": "maranix",
+      "rarity": "legendary",
+      "hellhades_slug": "maranix",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sanguine Maria",
+      "key": "maria",
+      "rarity": "legendary",
+      "hellhades_slug": "sanguine-maria",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Marichka the Unbreakable",
+      "key": "marichka_the_unbreakable",
+      "rarity": "legendary",
+      "hellhades_slug": "marichka-the-unbreakable",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Marius the Gallant",
+      "key": "marius",
+      "rarity": "legendary",
+      "hellhades_slug": "marius-the-gallant",
+      "faction": "Skinwalkers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Martyr",
+      "key": "martyr",
+      "rarity": "legendary",
+      "hellhades_slug": "martyr",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Masahiro the Bell Monk",
+      "key": "masahiro_the_bell_monk",
+      "rarity": "legendary",
+      "hellhades_slug": "masahiro-the-bell-monk",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ma’Shalled",
+      "key": "mashalled",
+      "rarity": "legendary",
+      "hellhades_slug": "mashalled",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mathias Blackflail",
+      "key": "mathias_blackflail",
+      "rarity": "legendary",
+      "hellhades_slug": "mathias-blackflail",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Matriarch Zarguna",
+      "key": "matriarch_zarguna",
+      "rarity": "legendary",
+      "hellhades_slug": "matriarch-zarguna",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Maulie Tankard",
+      "key": "maulie_tankard",
+      "rarity": "legendary",
+      "hellhades_slug": "maulie-tankard",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mavara The Web Diviner",
+      "key": "mavara",
+      "rarity": "legendary",
+      "hellhades_slug": "mavara-the-web-diviner",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mezomel Luperfang",
+      "key": "mezomel_luperfang",
+      "rarity": "mythical",
+      "hellhades_slug": "mezomel-luperfang",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Michelangelo",
+      "key": "michelangelo",
+      "rarity": "legendary",
+      "hellhades_slug": "michelangelo",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Michinaki",
+      "key": "michinaki",
+      "rarity": "legendary",
+      "hellhades_slug": "michinaki",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mighty Ukko",
+      "key": "mighty_ukko",
+      "rarity": "legendary",
+      "hellhades_slug": "mighty-ukko",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Lady Mikage",
+      "key": "mikage",
+      "rarity": "mythical",
+      "hellhades_slug": "lady-mikage",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Minaya",
+      "key": "minaya",
+      "rarity": "legendary",
+      "hellhades_slug": "minaya",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mithrala Lifebane",
+      "key": "mithrala",
+      "rarity": "legendary",
+      "hellhades_slug": "mithrala-lifebane",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Miyoko, Flower of Yakai",
+      "key": "miyoko_flower_of_yakai",
+      "rarity": "legendary",
+      "hellhades_slug": "miyoko-flower-of-yakai",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Modo of the Peal",
+      "key": "modo_of_the_peal",
+      "rarity": "legendary",
+      "hellhades_slug": "modo-of-the-peal",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Morrigaine",
+      "key": "morrigaine",
+      "rarity": "legendary",
+      "hellhades_slug": "morrigaine",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mortu-Macaab",
+      "key": "mortu_macaab",
+      "rarity": "legendary",
+      "hellhades_slug": "mortu-macaab",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mother Cybele",
+      "key": "mother_cybele",
+      "rarity": "legendary",
+      "hellhades_slug": "mother-cybele",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Mountain King",
+      "key": "mountain_king",
+      "rarity": "legendary",
+      "hellhades_slug": "mountain-king",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nais the Shadowthief",
+      "key": "nais",
+      "rarity": "mythical",
+      "hellhades_slug": "nais-the-shadowthief",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nari The Lucky",
+      "key": "nari_the_lucky",
+      "rarity": "legendary",
+      "hellhades_slug": "nari-the-lucky",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Narma the Returned",
+      "key": "narma_the_returned",
+      "rarity": "legendary",
+      "hellhades_slug": "narma-the-returned",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nekhret the Great",
+      "key": "nekhret",
+      "rarity": "legendary",
+      "hellhades_slug": "nekhret-the-great",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Nekmo Thaar",
+      "key": "nekmo_thaar",
+      "rarity": "legendary",
+      "hellhades_slug": "nekmo-thaar",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nell Blackteeth",
+      "key": "nell_blackteeth",
+      "rarity": "mythical",
+      "hellhades_slug": "nell-blackteeth",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nethril",
+      "key": "nethril",
+      "rarity": "legendary",
+      "hellhades_slug": "nethril",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Niamhe, Spear of Nyresa",
+      "key": "niamhe_spear_of_nyresa",
+      "rarity": "legendary",
+      "hellhades_slug": "niamhe-spear-of-nyresa",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Ninja",
+      "key": "ninja",
+      "rarity": "legendary",
+      "hellhades_slug": "ninja",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nobel",
+      "key": "nobel",
+      "rarity": "legendary",
+      "hellhades_slug": "nobel",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Noct the Paralyzer",
+      "key": "noct_the_paralyzer",
+      "rarity": "legendary",
+      "hellhades_slug": "noct-the-paralyzer",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Nogdar The Headhunter",
+      "key": "nogdar_the_headhunter",
+      "rarity": "legendary",
+      "hellhades_slug": "nogdar-the-headhunter",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Noldua The Gloaming",
+      "key": "noldua_the_gloaming",
+      "rarity": "legendary",
+      "hellhades_slug": "noldua-the-gloaming",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Norog",
+      "key": "norog",
+      "rarity": "legendary",
+      "hellhades_slug": "norog",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Odin Faefather",
+      "key": "odin_faefather",
+      "rarity": "legendary",
+      "hellhades_slug": "odin-faefather",
+      "faction": "Barbarians",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Oella",
+      "key": "oella",
+      "rarity": "legendary",
+      "hellhades_slug": "oella",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Onryo Ieyasu",
+      "key": "onryo_ieyasu",
+      "rarity": "legendary",
+      "hellhades_slug": "onryo-ieyasu",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Opardin Clanfather",
+      "key": "opardin_clanfather",
+      "rarity": "legendary",
+      "hellhades_slug": "opardin-clanfather",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Orynyx Mindcrawler",
+      "key": "orynyx_mindcrawler",
+      "rarity": "legendary",
+      "hellhades_slug": "orynyx-mindcrawler",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Osgrun The Defiler",
+      "key": "osgrun_the_defiler",
+      "rarity": "legendary",
+      "hellhades_slug": "osgrun-the-defiler",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Owein Winterflame",
+      "key": "owein_winterflame",
+      "rarity": "legendary",
+      "hellhades_slug": "owein-winterflame",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ozilda the Wicked",
+      "key": "ozilda_the_wicked",
+      "rarity": "legendary",
+      "hellhades_slug": "ozilda-the-wicked",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Packmaster Shy’ek",
+      "key": "packmaster_shyek",
+      "rarity": "legendary",
+      "hellhades_slug": "packmaster-shyek",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Pelagus The Wavewalker",
+      "key": "pelagus_the_wavewalker",
+      "rarity": "legendary",
+      "hellhades_slug": "pelagus-the-wavewalker",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Pelops The Victor",
+      "key": "pelops",
+      "rarity": "legendary",
+      "hellhades_slug": "pelops-the-victor",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Pheidi Tealcrest",
+      "key": "pheidi_tealcrest",
+      "rarity": "legendary",
+      "hellhades_slug": "pheidi-tealcrest",
+      "faction": "Lizardmen",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Phemo the Shepherd",
+      "key": "phemo_the_shepherd",
+      "rarity": "legendary",
+      "hellhades_slug": "phemo-the-shepherd",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Polara Fireheart",
+      "key": "polara_fireheart",
+      "rarity": "mythical",
+      "hellhades_slug": "polara-fireheart",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Pontiff Augustin",
+      "key": "pontiff_augustin",
+      "rarity": "legendary",
+      "hellhades_slug": "pontiff-augustin",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Praeva The Slitherer",
+      "key": "praeva_the_slitherer",
+      "rarity": "legendary",
+      "hellhades_slug": "praeva-the-slitherer",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Predator",
+      "key": "predator",
+      "rarity": "legendary",
+      "hellhades_slug": "predator",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Prince Kymar",
+      "key": "prince_kymar",
+      "rarity": "legendary",
+      "hellhades_slug": "prince-kymar",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Pythion",
+      "key": "pythion",
+      "rarity": "legendary",
+      "hellhades_slug": "pythion",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Pyxniel",
+      "key": "pyxniel",
+      "rarity": "legendary",
+      "hellhades_slug": "pyxniel",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Queen Eva",
+      "key": "queen_eva",
+      "rarity": "legendary",
+      "hellhades_slug": "queen-eva",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Queen of Hearts",
+      "key": "queen_of_hearts",
+      "rarity": "legendary",
+      "hellhades_slug": "queen-of-hearts",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Quintus the Triumphant",
+      "key": "quintus_the_triumphant",
+      "rarity": "legendary",
+      "hellhades_slug": "quintus-the-triumphant",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "R. Nergigante Archer",
+      "key": "r_nergigante_archer",
+      "rarity": "legendary",
+      "hellhades_slug": "r-nergigante-archer",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Rae",
+      "key": "rae",
+      "rarity": "legendary",
+      "hellhades_slug": "rae",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Raf-Matab",
+      "key": "raf_matab",
+      "rarity": "legendary",
+      "hellhades_slug": "raf-matab",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ragash",
+      "key": "ragash",
+      "rarity": "legendary",
+      "hellhades_slug": "ragash",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Raglin",
+      "key": "raglin",
+      "rarity": "legendary",
+      "hellhades_slug": "raglin",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Rakka Viletide",
+      "key": "rakka_viletide",
+      "rarity": "legendary",
+      "hellhades_slug": "rakka-viletide",
+      "faction": "Orcs",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Ramantu Drakesblood",
+      "key": "ramantu_drakesblood",
+      "rarity": "legendary",
+      "hellhades_slug": "ramantu-drakesblood",
+      "faction": "Lizardmen",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Raphael",
+      "key": "raphael",
+      "rarity": "legendary",
+      "hellhades_slug": "raphael",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Rathalos Blademaster",
+      "key": "rathalos_blademaster",
+      "rarity": "legendary",
+      "hellhades_slug": "rathalos-blademaster",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Razelvarg",
+      "key": "razelvarg",
+      "rarity": "legendary",
+      "hellhades_slug": "razelvarg",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Rhaia The Mourned",
+      "key": "rhaia_the_mourned",
+      "rarity": "legendary",
+      "hellhades_slug": "rhaia-the-mourned",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Rhazin Scarhide",
+      "key": "rhazin_scarhide",
+      "rarity": "legendary",
+      "hellhades_slug": "rhazin-scarhide",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Richtoff the Bold",
+      "key": "richtoff_the_bold",
+      "rarity": "legendary",
+      "hellhades_slug": "richtoff-the-bold",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Riho Bonespear",
+      "key": "riho_bonespear",
+      "rarity": "legendary",
+      "hellhades_slug": "riho-bonespear",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Robar",
+      "key": "robar",
+      "rarity": "legendary",
+      "hellhades_slug": "robar",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ronda",
+      "key": "ronda",
+      "rarity": "legendary",
+      "hellhades_slug": "ronda",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Roric Wyrmbane",
+      "key": "roric_wyrmbane",
+      "rarity": "legendary",
+      "hellhades_slug": "roric-wyrmbane",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Roshcard the Tower",
+      "key": "roshcard_the_tower",
+      "rarity": "legendary",
+      "hellhades_slug": "roshcard-the-tower",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Rotos the Lost Groom",
+      "key": "rotos_the_lost_groom",
+      "rarity": "legendary",
+      "hellhades_slug": "rotos-the-lost-groom",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Roxam",
+      "key": "roxam",
+      "rarity": "legendary",
+      "hellhades_slug": "roxam",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Royal Huntsman",
+      "key": "royal_huntsman",
+      "rarity": "legendary",
+      "hellhades_slug": "royal-huntsman",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ruel the Huntmaster",
+      "key": "ruel_the_huntmaster",
+      "rarity": "legendary",
+      "hellhades_slug": "ruel-the-huntmaster",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sabrael the Distant",
+      "key": "sabrael_the_distant",
+      "rarity": "mythical",
+      "hellhades_slug": "sabrael-the-distant",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Saito",
+      "key": "saito",
+      "rarity": "legendary",
+      "hellhades_slug": "saito",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Samar Gemcursed",
+      "key": "samar_gemcursed",
+      "rarity": "legendary",
+      "hellhades_slug": "samar-gemcursed",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Samson the Masher",
+      "key": "samson_the_masher",
+      "rarity": "legendary",
+      "hellhades_slug": "samson-the-masher",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Scyl of the Drakes",
+      "key": "scyl_of_the_drakes",
+      "rarity": "legendary",
+      "hellhades_slug": "scyl-of-the-drakes",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Searsha The Charred",
+      "key": "searsha_the_charred",
+      "rarity": "legendary",
+      "hellhades_slug": "searsha-the-charred",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Senna Amberheart",
+      "key": "senna_amberheart",
+      "rarity": "legendary",
+      "hellhades_slug": "senna-amberheart",
+      "faction": "Dwarves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Septimus",
+      "key": "septimus",
+      "rarity": "legendary",
+      "hellhades_slug": "septimus",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sethallia",
+      "key": "sethallia",
+      "rarity": "legendary",
+      "hellhades_slug": "sethallia",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Shamrock",
+      "key": "shamrock",
+      "rarity": "legendary",
+      "hellhades_slug": "shamrock",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Shemnath",
+      "key": "shemnath",
+      "rarity": "legendary",
+      "hellhades_slug": "shemnath",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Shirimani",
+      "key": "shirimani",
+      "rarity": "legendary",
+      "hellhades_slug": "shirimani",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Shredder",
+      "key": "shredder",
+      "rarity": "legendary",
+      "hellhades_slug": "shredder",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Shu-Zhen the Valorous",
+      "key": "shu_zhen",
+      "rarity": "legendary",
+      "hellhades_slug": "shu-zhen-the-valorous",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Sicia Flametongue",
+      "key": "sicia_flametongue",
+      "rarity": "legendary",
+      "hellhades_slug": "sicia-flametongue",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Siegfrund the Nephilim",
+      "key": "siegfrund_the_nephilim",
+      "rarity": "mythical",
+      "hellhades_slug": "siegfrund-the-nephilim",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sigmund the Highshield",
+      "key": "sigmund_the_highshield",
+      "rarity": "legendary",
+      "hellhades_slug": "sigmund-the-highshield",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Siphi the Lost Bride",
+      "key": "siphi",
+      "rarity": "legendary",
+      "hellhades_slug": "siphi-the-lost-bride",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Sir Nicholas",
+      "key": "sir_nicholas",
+      "rarity": "legendary",
+      "hellhades_slug": "sir-nicholas",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Skartorsis",
+      "key": "skartorsis",
+      "rarity": "legendary",
+      "hellhades_slug": "skartorsis",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Skeletor",
+      "key": "skeletor",
+      "rarity": "legendary",
+      "hellhades_slug": "skeletor",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Skorid The Halfspawn",
+      "key": "skorid_the_halfspawn",
+      "rarity": "legendary",
+      "hellhades_slug": "skorid-the-halfspawn",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Skull Lord Var-Gall",
+      "key": "skull_lord_var_gall",
+      "rarity": "legendary",
+      "hellhades_slug": "skull-lord-var-gall",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sniktraak",
+      "key": "sniktraak",
+      "rarity": "legendary",
+      "hellhades_slug": "sniktraak",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Solanar The Gleaming",
+      "key": "solanar_the_gleaming",
+      "rarity": "legendary",
+      "hellhades_slug": "solanar-the-gleaming",
+      "faction": "High Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Soulless",
+      "key": "soulless",
+      "rarity": "legendary",
+      "hellhades_slug": "soulless",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Staltus Dragonbane",
+      "key": "staltus_dragonbane",
+      "rarity": "legendary",
+      "hellhades_slug": "staltus-dragonbane",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Stokk The Broken",
+      "key": "stokk_the_broken",
+      "rarity": "legendary",
+      "hellhades_slug": "stokk-the-broken",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Storm Herald Hekaton",
+      "key": "storm_herald_hekaton",
+      "rarity": "legendary",
+      "hellhades_slug": "storm-herald-hekaton",
+      "faction": "Argonites",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Strategos Islin",
+      "key": "strategos_islin",
+      "rarity": "legendary",
+      "hellhades_slug": "strategos-islin",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sulfuryion",
+      "key": "sulfuryion",
+      "rarity": "legendary",
+      "hellhades_slug": "sulfuryion",
+      "faction": "Lizardmen",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Sun Wukong",
+      "key": "sun_wukong",
+      "rarity": "legendary",
+      "hellhades_slug": "sun-wukong",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Supreme Athel",
+      "key": "supreme_athel",
+      "rarity": "legendary",
+      "hellhades_slug": "supreme-athel",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Supreme Elhain",
+      "key": "supreme_elhain",
+      "rarity": "legendary",
+      "hellhades_slug": "supreme-elhain",
+      "faction": "High Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Supreme Galek",
+      "key": "supreme_galek",
+      "rarity": "legendary",
+      "hellhades_slug": "supreme-galek",
+      "faction": "Orcs",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Supreme Kael",
+      "key": "supreme_kael",
+      "rarity": "legendary",
+      "hellhades_slug": "supreme-kael",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Suzerain Katonn",
+      "key": "suzerain_katonn",
+      "rarity": "legendary",
+      "hellhades_slug": "suzerain-katonn",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Swarmspeaker Zyclic",
+      "key": "swarmspeaker_zyclic",
+      "rarity": "legendary",
+      "hellhades_slug": "swarmspeaker-zyclic",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Sydax King Killer",
+      "key": "sydax_king_killer",
+      "rarity": "legendary",
+      "hellhades_slug": "sydax-king-killer",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Talenna Soulseer",
+      "key": "talenna_soulseer",
+      "rarity": "legendary",
+      "hellhades_slug": "talenna-soulseer",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Taras the Fierce",
+      "key": "taras_the_fierce",
+      "rarity": "legendary",
+      "hellhades_slug": "taras-the-fierce",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Tatsu",
+      "key": "tatsu",
+      "rarity": "legendary",
+      "hellhades_slug": "tatsu",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tatura Rimehide",
+      "key": "tatura_rimehide",
+      "rarity": "legendary",
+      "hellhades_slug": "tatura-rimehide",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Teela Goremane",
+      "key": "teela_goremane",
+      "rarity": "legendary",
+      "hellhades_slug": "teela-goremane",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tekteon Fissureflesh",
+      "key": "tekteon",
+      "rarity": "legendary",
+      "hellhades_slug": "tekteon-fissureflesh",
+      "faction": "Argonites",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Teodor the Savant",
+      "key": "teodor_the_savant",
+      "rarity": "legendary",
+      "hellhades_slug": "teodor-the-savant",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tetsuya the Deliverer",
+      "key": "tetsuya_the_deliverer",
+      "rarity": "legendary",
+      "hellhades_slug": "tetsuya-the-deliverer",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Teumesia",
+      "key": "teumesia",
+      "rarity": "legendary",
+      "hellhades_slug": "teumesia",
+      "faction": "Skinwalkers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Thayla Hammerhorn",
+      "key": "thayla_hammerhorn",
+      "rarity": "legendary",
+      "hellhades_slug": "thayla-hammerhorn",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "The Calamitus",
+      "key": "the_calamitus",
+      "rarity": "mythical",
+      "hellhades_slug": "the-calamitus",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "The Cowardly Lion",
+      "key": "the_cowardly_lion",
+      "rarity": "legendary",
+      "hellhades_slug": "the-cowardly-lion",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "The Incarnate",
+      "key": "the_incarnate",
+      "rarity": "legendary",
+      "hellhades_slug": "the-incarnate",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "The Scarecrow",
+      "key": "the_scarecrow",
+      "rarity": "legendary",
+      "hellhades_slug": "the-scarecrow",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "The Tin Woodman",
+      "key": "the_tin_woodman",
+      "rarity": "legendary",
+      "hellhades_slug": "the-tin-woodman",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Thea the Tomb Angel",
+      "key": "thea_the_tomb_angel",
+      "rarity": "legendary",
+      "hellhades_slug": "thea-the-tomb-angel",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Theimios The Everdrinker",
+      "key": "theimios_the_everdrinker",
+      "rarity": "legendary",
+      "hellhades_slug": "theimios-the-everdrinker",
+      "faction": "Argonites",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Theodosia the Disgraced",
+      "key": "theodosia",
+      "rarity": "mythical",
+      "hellhades_slug": "theodosia-the-disgraced",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tholin Foulbeard",
+      "key": "tholin_foulbeard",
+      "rarity": "legendary",
+      "hellhades_slug": "tholin-foulbeard",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Thor Faehammer",
+      "key": "thor_faehammer",
+      "rarity": "legendary",
+      "hellhades_slug": "thor-faehammer",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Thralia, She Who Stands",
+      "key": "thralia_she_who_stands",
+      "rarity": "legendary",
+      "hellhades_slug": "thralia-she-who-stands",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Timit the Fool",
+      "key": "timit_the_fool",
+      "rarity": "legendary",
+      "hellhades_slug": "timit-the-fool",
+      "faction": "Banner Lords",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Titus Blackplume",
+      "key": "titus_blackplume",
+      "rarity": "legendary",
+      "hellhades_slug": "titus-blackplume",
+      "faction": "Banner Lords",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Togron the Conjoined",
+      "key": "togron_the_conjoined",
+      "rarity": "legendary",
+      "hellhades_slug": "togron-the-conjoined",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Tomb Lord",
+      "key": "tomb_lord",
+      "rarity": "legendary",
+      "hellhades_slug": "tomb-lord",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tormin the Cold",
+      "key": "tormin_the_cold",
+      "rarity": "legendary",
+      "hellhades_slug": "tormin-the-cold",
+      "faction": "Dwarves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Toshiro The Bloody",
+      "key": "toshiro_the_bloody",
+      "rarity": "mythical",
+      "hellhades_slug": "toshiro-the-bloody",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tramaria",
+      "key": "tramaria",
+      "rarity": "legendary",
+      "hellhades_slug": "tramaria",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Tribune Herakletes",
+      "key": "tribune_herakletes",
+      "rarity": "legendary",
+      "hellhades_slug": "tribune-herakletes",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Truath",
+      "key": "truath",
+      "rarity": "legendary",
+      "hellhades_slug": "truath",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Trunda Giltmallet",
+      "key": "trunda_giltmallet",
+      "rarity": "legendary",
+      "hellhades_slug": "trunda-giltmallet",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Tuhanarak",
+      "key": "tuhanarak",
+      "rarity": "legendary",
+      "hellhades_slug": "tuhanarak",
+      "faction": "Barbarians",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Turvold",
+      "key": "turvold",
+      "rarity": "legendary",
+      "hellhades_slug": "turvold",
+      "faction": "Barbarians",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Tyrant Ixlimor",
+      "key": "tyrant_ixlimor",
+      "rarity": "legendary",
+      "hellhades_slug": "tyrant-ixlimor",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ugir the Wyrmeater",
+      "key": "ugir_the_wyrmeater",
+      "rarity": "legendary",
+      "hellhades_slug": "ugir-the-wyrmeater",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ultan Of The Shell",
+      "key": "ultan_of_the_shell",
+      "rarity": "legendary",
+      "hellhades_slug": "ultan-of-the-shell",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Ultimate Deathknight",
+      "key": "ultimate_death_knight",
+      "rarity": "legendary",
+      "hellhades_slug": "ultimate-deathknight",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Underpriest Brogni",
+      "key": "underpriest_brogni",
+      "rarity": "legendary",
+      "hellhades_slug": "underpriest-brogni",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Urost the Soulcage",
+      "key": "urost_the_soulcage",
+      "rarity": "legendary",
+      "hellhades_slug": "urost-the-soulcage",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Ursuga Warcaller",
+      "key": "ursuga_warcaller",
+      "rarity": "legendary",
+      "hellhades_slug": "ursuga-warcaller",
+      "faction": "Barbarians",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Uzol of the Jade",
+      "key": "uzol_of_the_jade",
+      "rarity": "legendary",
+      "hellhades_slug": "uzol-of-the-jade",
+      "faction": "Dwarves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Valkanen",
+      "key": "valkanen",
+      "rarity": "legendary",
+      "hellhades_slug": "valkanen",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Valkyrie",
+      "key": "valkyrie",
+      "rarity": "legendary",
+      "hellhades_slug": "valkyrie",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Vallaryn the Equalizer",
+      "key": "vallaryn_the_equalizer",
+      "rarity": "legendary",
+      "hellhades_slug": "vallaryn-the-equalizer",
+      "faction": "Undead Hordes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Varkos Headsplitter",
+      "key": "varkos_headsplitter",
+      "rarity": "legendary",
+      "hellhades_slug": "varkos-headsplitter",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Varl the Destroyer",
+      "key": "varl_the_destroyer",
+      "rarity": "legendary",
+      "hellhades_slug": "varl-the-destroyer",
+      "faction": "Orcs",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Vasal of the Seal",
+      "key": "vasal_of_the_seal",
+      "rarity": "legendary",
+      "hellhades_slug": "vasal-of-the-seals",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Vault Keeper Wixwell",
+      "key": "vault_keeper_wixwell",
+      "rarity": "legendary",
+      "hellhades_slug": "vault-keeper-wixwell",
+      "faction": "Sacred Order",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Venalicia Thrallmother",
+      "key": "venalicia_thrallmother",
+      "rarity": "legendary",
+      "hellhades_slug": "venalicia-thrallmother",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Venus",
+      "key": "venus",
+      "rarity": "legendary",
+      "hellhades_slug": "venus",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Vergumkaar",
+      "key": "vergumkaar",
+      "rarity": "legendary",
+      "hellhades_slug": "vergumkaar",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Versulf the Grim",
+      "key": "versulf_the_grim",
+      "rarity": "legendary",
+      "hellhades_slug": "versulf-the-grim",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Vestele Riverthorn",
+      "key": "vestele",
+      "rarity": "legendary",
+      "hellhades_slug": "vestele-riverthorn",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Visix the Unbowed",
+      "key": "visix_the_unbowed",
+      "rarity": "legendary",
+      "hellhades_slug": "visix-the-unbowed",
+      "faction": "Dark Elves",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Vitrius the Anointed",
+      "key": "vitrius_the_anointed",
+      "rarity": "legendary",
+      "hellhades_slug": "vitrius-the-anointed",
+      "faction": "Sacred Order",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Vizier Ovelis",
+      "key": "vizier_ovelis",
+      "rarity": "legendary",
+      "hellhades_slug": "vizier-ovelis",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Vizug the Noxious",
+      "key": "vizug_the_noxious",
+      "rarity": "legendary",
+      "hellhades_slug": "vizug-the-noxious",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Vlad the Nightborn",
+      "key": "vlad_the_nightborn",
+      "rarity": "legendary",
+      "hellhades_slug": "vlad-the-nightborn",
+      "faction": "Undead Hordes",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Vulkanos Fumor",
+      "key": "vulkanos_fumor",
+      "rarity": "legendary",
+      "hellhades_slug": "vulkanos-fumor",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Walking Tomb Dreng",
+      "key": "walking_tomb_dreng",
+      "rarity": "legendary",
+      "hellhades_slug": "walking-tomb-dreng",
+      "faction": "Knights Revenant",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Wallmaster Othorion",
+      "key": "wallmaster_othorion",
+      "rarity": "legendary",
+      "hellhades_slug": "wallmaster-othorion",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "War Mother",
+      "key": "war_mother",
+      "rarity": "legendary",
+      "hellhades_slug": "war-mother",
+      "faction": "Ogryn Tribes",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Warchief",
+      "key": "warchief",
+      "rarity": "legendary",
+      "hellhades_slug": "warchief",
+      "faction": "Skinwalkers",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Warlord",
+      "key": "warlord",
+      "rarity": "legendary",
+      "hellhades_slug": "warlord",
+      "faction": "Orcs",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Wight King Narses",
+      "key": "wight_king_narses",
+      "rarity": "legendary",
+      "hellhades_slug": "wight-king-narses",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Wurlim Frostking",
+      "key": "wurlim_frostking",
+      "rarity": "legendary",
+      "hellhades_slug": "wurlim-frostking",
+      "faction": "Knights Revenant",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Wythir the Crowned",
+      "key": "wythir_the_crowned",
+      "rarity": "legendary",
+      "hellhades_slug": "wythir-the-crowned",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Xalgaze Fangwall",
+      "key": "xalgaze_fangwall",
+      "rarity": "legendary",
+      "hellhades_slug": "xalgaze-fangwall",
+      "faction": "Demonspawn",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Xena: Warrior Princess",
+      "key": "xena_warrior_princess",
+      "rarity": "legendary",
+      "hellhades_slug": "xena-warrior-princess",
+      "faction": "Barbarians",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Xenomorph",
+      "key": "xenomorph",
+      "rarity": "legendary",
+      "hellhades_slug": "xenomorph",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Xiloco The Encrusted",
+      "key": "xiloco_the_encrusted",
+      "rarity": "legendary",
+      "hellhades_slug": "xiloco-the-encrusted",
+      "faction": "Lizardmen",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Yakarl the Scourge",
+      "key": "yakarl_the_scourge",
+      "rarity": "legendary",
+      "hellhades_slug": "yakarl-the-scourge",
+      "faction": "Barbarians",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Yannica",
+      "key": "yannica",
+      "rarity": "legendary",
+      "hellhades_slug": "yannica",
+      "faction": "High Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Yncensa Grail-bearer",
+      "key": "yncensa_grail_bearer",
+      "rarity": "legendary",
+      "hellhades_slug": "yncensa-grail-bearer",
+      "faction": "Sylvan Watchers",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Yoshi the Drunkard",
+      "key": "yoshi_the_drunkard",
+      "rarity": "legendary",
+      "hellhades_slug": "yoshi-the-drunkard",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Yukimasa, Demon Of Ice",
+      "key": "yukimasa_demon_of_ice",
+      "rarity": "legendary",
+      "hellhades_slug": "yukimasa-demon-of-ice",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Yumeko",
+      "key": "yumeko",
+      "rarity": "legendary",
+      "hellhades_slug": "yumeko",
+      "faction": "Shadowkin",
+      "affinity_group": "void"
+    },
+    {
+      "name": "Zavia",
+      "key": "zavia",
+      "rarity": "legendary",
+      "hellhades_slug": "zavia",
+      "faction": "Dark Elves",
+      "affinity_group": "nonvoid"
+    },
+    {
+      "name": "Zinogre Blademaster",
+      "key": "zinogre_blademaster",
+      "rarity": "legendary",
+      "hellhades_slug": "zinogre-blademaster",
+      "faction": "Shadowkin",
+      "affinity_group": "nonvoid"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "pick_priority": [
+    "fabian",
+    "arbiter",
+    "vestele",
+    "tekteon",
+    "komidus",
+    "predator",
+    "mavara",
+    "cruetraxa",
+    "pelops",
+    "siphi"
+  ],
+  "ban_priority": [
+    "solonar",
+    "sabrael",
+    "predator",
+    "shu_zhen"
+  ],
+  "leader_priority": [
+    "arbiter",
+    "mavara",
+    "fabian",
+    "predator",
+    "tekteon",
+    "vestele"
+  ],
+  "counter_pick": {
+    "fabian": [
+      "gliseah",
+      "predator"
+    ],
+    "krixia": [
+      "gliseah",
+      "predator"
+    ],
+    "komidus": [
+      "siphi"
+    ],
+    "tekteon": [
+      "gliseah",
+      "vestele"
+    ],
+    "marius": [
+      "fabian",
+      "predator"
+    ],
+    "odin": [
+      "cruetraxa"
+    ],
+    "telena": [
+      "gliseah"
+    ]
+  },
+  "counter_pick_rules": [],
+  "ban_rules": [
+    {
+      "if_enemy_any": [
+        "marius"
+      ],
+      "priority": [
+        "shu_zhen"
+      ]
+    }
+  ],
+  "opponent_templates": {},
+  "pick_templates": {},
+  "ban_templates": {}
+}

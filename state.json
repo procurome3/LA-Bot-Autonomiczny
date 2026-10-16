@@ -1,0 +1,11 @@
+{
+  "active_champion": "Yumeko",
+  "active_turn_verified": true,
+  "skills": {
+    "a3_ready": true
+  },
+  "target_head": 1,
+  "target_xy": [1280, 450],
+  "model": "best.pt",
+  "confidence": 0.5
+}

@@ -1,0 +1,10 @@
+V11.4
+- all STATE transitions use ========== STATE: OLD -> NEW ==========
+- new LOADING state between LEADER and COMBAT
+- combat starts only after real battle portrait-turn border is detected twice
+- portrait green border is primary turn owner detector
+- no combat/skill logs on pre-battle loading screen
+- leader identity uses PICK TRACK first; visual lead template only emergency fallback
+- lower coherent multi-skill family thresholds fixes Ankora (~0.48-0.53 template scores)
+- watchdog reset at actual battle start
+- preserves targeting, Stone Skin, affinity, revive and ad fixes

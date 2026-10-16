@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "facts_only": true,
+  "rankings_used": false,
+  "sources": {
+    "Banner Lords": [
+      "https://hellhades.com/raid/factions/banner-lords/",
+      "https://hellhades.com/raid/factions/banner-lords/roster/"
+    ],
+    "High Elves": [
+      "https://hellhades.com/raid/factions/high-elves/",
+      "https://hellhades.com/raid/factions/high-elves/roster/"
+    ],
+    "Sacred Order": [
+      "https://hellhades.com/raid/factions/the-sacred-order/",
+      "https://hellhades.com/raid/factions/the-sacred-order/roster/"
+    ],
+    "Barbarians": [
+      "https://hellhades.com/raid/factions/barbarians/",
+      "https://hellhades.com/raid/factions/barbarians/roster/"
+    ],
+    "Ogryn Tribes": [
+      "https://hellhades.com/raid/factions/ogryn-tribes/",
+      "https://hellhades.com/raid/factions/ogryn-tribes/roster/"
+    ],
+    "Lizardmen": [
+      "https://hellhades.com/raid/factions/lizardmen/",
+      "https://hellhades.com/raid/factions/lizardmen/roster/"
+    ],
+    "Skinwalkers": [
+      "https://hellhades.com/raid/factions/skinwalkers/",
+      "https://hellhades.com/raid/factions/skinwalkers/roster/"
+    ],
+    "Orcs": [
+      "https://hellhades.com/raid/factions/orcs/",
+      "https://hellhades.com/raid/factions/orcs/roster/"
+    ],
+    "Demonspawn": [
+      "https://hellhades.com/raid/factions/demonspawn/",
+      "https://hellhades.com/raid/factions/demonspawn/roster/"
+    ],
+    "Undead Hordes": [
+      "https://hellhades.com/raid/factions/undead-hordes/",
+      "https://hellhades.com/raid/factions/undead-hordes/roster/"
+    ],
+    "Dark Elves": [
+      "https://hellhades.com/raid/factions/dark-elves/",
+      "https://hellhades.com/raid/factions/dark-elves/roster/"
+    ],
+    "Knights Revenant": [
+      "https://hellhades.com/raid/factions/knights-revenant/",
+      "https://hellhades.com/raid/factions/knights-revenant/roster/"
+    ],
+    "Dwarves": [
+      "https://hellhades.com/raid/factions/dwarves/",
+      "https://hellhades.com/raid/factions/dwarves/roster/"
+    ],
+    "Shadowkin": [
+      "https://hellhades.com/raid/factions/shadowkin/",
+      "https://hellhades.com/raid/factions/shadowkin/roster/"
+    ],
+    "Sylvan Watchers": [
+      "https://hellhades.com/raid/factions/sylvan-watchers/",
+      "https://hellhades.com/raid/factions/sylvan-watchers/roster/"
+    ],
+    "Argonites": [
+      "https://hellhades.com/raid/factions/argonites/",
+      "https://hellhades.com/raid/factions/argonites/roster/"
+    ]
+  }
+}

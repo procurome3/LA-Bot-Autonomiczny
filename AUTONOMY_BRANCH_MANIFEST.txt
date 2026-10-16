@@ -1,0 +1,17 @@
+Branch: autonomous-live-arena-ai
+Version: V16.2
+Purpose: autonomous Live Arena draft/combat with factual champion-kit knowledge.
+
+V16.2 additions:
+- 421 Legendary/Mythical roster index
+- facts-only champion_database.json (NO HellHades ranking/rating import)
+- resumable HellHades kit updater
+- kit-derived autonomy fallback
+- active-draft-only combat skill template matching
+- family-specific A4 preserved
+
+Run tests:
+  py -m unittest -v test_champion_database.py test_livearena_autonomy.py
+
+Populate factual DB on Windows:
+  UPDATE_CHAMPION_DATABASE.bat

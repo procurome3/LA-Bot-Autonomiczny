@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-16T05:11:23+00:00",
+  "facts_only": true,
+  "rankings_or_ratings_imported": false,
+  "source": {
+    "champion_identity": "https://hellhades.com/wp-json/hh-api/v3/champions?mode=all",
+    "live_forms": "https://hellhades.com/wp-json/hh-api/v3/raid/forms/{model}",
+    "live_skills": "https://hellhades.com/wp-json/hh-api/v3/skills?skills={ids}&model={model}&heroid={hero_id}",
+    "preview_fallback": "https://hellhades.com/wp-json/hh-api/v3/raid/skills/82374"
+  },
+  "run": {
+    "detailed": 430,
+    "partial": 0,
+    "failed": 0,
+    "skipped": 0,
+    "unmatched": 0
+  },
+  "database_statuses": {
+    "detailed": 430
+  },
+  "source_coverage": {
+    "unique_champions": 430,
+    "legendary": 396,
+    "mythical": 34,
+    "live_model_champions": 429,
+    "live_form_kits": 463,
+    "live_skill_rows": 1882,
+    "legacy_preview_champions": 1,
+    "normalized_skill_entries": 1886
+  },
+  "unmatched": [],
+  "errors": {},
+  "structural_validation_errors": [],
+  "semantic_review_skill_count": 755,
+  "semantic_verification": "All source skill IDs/layouts checked; conditional and complex mechanics not exhaustively verified.",
+  "preview_records": [
+    "orynyx_mindcrawler"
+  ],
+  "database_path": "data/champion_database.json"
+}

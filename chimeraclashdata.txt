@@ -1,0 +1,1 @@
+{'Den of Dragons [-DEN]': 11463.22, 'Freres d armes [3xFA1]': 7886.31, 'Northmen Titan... [NTK]': 4497.38, 'Reality Maelstr... [RMST]': 7104.57, 'Royal clan [-RC-]': 14942.43}

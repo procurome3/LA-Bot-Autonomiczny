@@ -1,0 +1,12 @@
+V11
+- active ally green-ring detector
+- combat slot -> champion family memory
+- physical skill circle detection
+- normalized central-icon matcher
+- no fixed A1/A2/A3/A4 coordinates
+- passive P never used as fallback
+- safe leftmost A1 fallback after 0.75s
+- target logic preserved: affinity / Stone Skin / Veil / HP
+- conservative Ankora revive tracker preserved
+- improved replay diagnostics
+- no bilder/PNG in package

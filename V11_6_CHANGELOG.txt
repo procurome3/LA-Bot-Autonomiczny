@@ -1,0 +1,6 @@
+V11.6
+- Każde przejście stanu ma dokładnie format:
+  ========== STATE: OLD -> NEW ==========
+- Pierwszy log:
+  ========== STATE: START -> IDLE ==========
+- TAB diagnostyka używa "CURRENT PHASE:" zamiast osobnego "STATE:".

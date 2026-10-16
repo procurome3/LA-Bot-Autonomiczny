@@ -1,0 +1,5426 @@
+{
+  "report_type": "champion_database_validation",
+  "generated_at": "2026-10-16T04:29:49+00:00",
+  "verdict": "NOT_READY_FOR_AUTONOMOUS_MECHANICS_DECISIONS",
+  "scope": {
+    "structural_checks": "all_450_records_and_1942_skill_entries",
+    "mechanics_checks": "spot_checks_on_6_champion_pages_only",
+    "project_source_code_available": false,
+    "runtime_tested": false,
+    "source_files_modified": false,
+    "unique_source_urls_are_not_proof_of_complete_current_game_roster": true
+  },
+  "inputs": [
+    {
+      "name": "champion_database(1).json",
+      "bytes": 2212513,
+      "sha256": "d5318f157081e9e1f50d5a06c2b4c6402ffc622956f8b2daccf899180ce64997"
+    },
+    {
+      "name": "champion_database_update_report(1).json",
+      "bytes": 1117,
+      "sha256": "6016d93db81866d7d5587fe728386bb876587b783e07215f0b9a791723d8a5e9"
+    }
+  ],
+  "summary": {
+    "records": 450,
+    "unique_normalized_source_urls": 431,
+    "extra_alias_records": 19,
+    "rarities_by_record": {
+      "mythical": 40,
+      "legendary": 410
+    },
+    "reported_statuses": {
+      "detailed": 441,
+      "fetch_failed": 5,
+      "partial": 3,
+      "index_only": 1
+    },
+    "best_status_per_source_url": {
+      "detailed": 424,
+      "fetch_failed": 5,
+      "partial": 1,
+      "index_only": 1
+    },
+    "skills": 1942,
+    "records_without_skills": 6,
+    "partial_records": 3,
+    "mythical_records_without_alternate_skills": 7,
+    "verified_mechanical_findings": 9,
+    "imported_ranking_fields_in_champions": 0,
+    "source_meta_roster_count": 421,
+    "source_meta_roster_count_is_stale": true
+  },
+  "important_interpretation": [
+    "detailed oznacza status nadany przez importer, a nie potwierdzenie poprawności skilli.",
+    "Część dodatkowych rekordów to aliasy używane przez profile; nie usuwać ich bez loadera i mapy aliasów.",
+    "Wartość null nie zawsze oznacza błąd: może oznaczać nieznane dane albo brak zastosowania.",
+    "Niespójność cooldown_base=0 / cooldown_booked=1 wymaga sprawdzenia konwencji loadera, zanim zostanie masowo zmieniona.",
+    "A5 traktowane jest jako sygnał do przeglądu numeracji, nie jako samodzielny dowód błędu dla dowolnej postaci.",
+    "Brak dedykowanych pól warunków oraz wartości efektów ogranicza planowanie AI; samo rozpoznanie słów buffów jest niewystarczające."
+  ],
+  "missing_skill_records": [
+    {
+      "champion_key": "arbais_the_stonethorn",
+      "name": "Arbais the Stonethorn",
+      "status": "fetch_failed",
+      "source_url": "https://hellhades.com/raid/champions/arbais-the-stonethorn/"
+    },
+    {
+      "champion_key": "gharol_bloodmaul",
+      "name": "Gharol Bloodmaul",
+      "status": "fetch_failed",
+      "source_url": "https://hellhades.com/raid/champions/gharol-bloodmaul/"
+    },
+    {
+      "champion_key": "mezomel_luperfang",
+      "name": "Mezomel Luperfang",
+      "status": "fetch_failed",
+      "source_url": "https://hellhades.com/raid/champions/mezomel-luperfang/"
+    },
+    {
+      "champion_key": "siegfrund_the_nephilim",
+      "name": "Siegfrund the Nephilim",
+      "status": "fetch_failed",
+      "source_url": "https://hellhades.com/raid/champions/siegfrund-the-nephilim/"
+    },
+    {
+      "champion_key": "he_man",
+      "name": "He-Man",
+      "status": "fetch_failed",
+      "source_url": "https://hellhades.com/raid/champions/he-man/"
+    },
+    {
+      "champion_key": "khamir_the_scaled_eye",
+      "name": "Khamir the Scaled Eye",
+      "status": "index_only",
+      "source_url": "https://hellhades.com/raid/champions/Khamir-the-Scaled-Eye/"
+    }
+  ],
+  "partial_records": [
+    {
+      "champion_key": "embrys",
+      "name": "Embrys The Anomaly",
+      "forms": [
+        "base"
+      ]
+    },
+    {
+      "champion_key": "embrys_the_anomaly",
+      "name": "Embrys The Anomaly",
+      "forms": [
+        "base"
+      ]
+    },
+    {
+      "champion_key": "ash_nar_dragonsoul",
+      "name": "Ash’nar Dragonsoul",
+      "forms": [
+        "base"
+      ]
+    }
+  ],
+  "mythical_records_missing_alternate": [
+    {
+      "champion_key": "arbais_the_stonethorn",
+      "name": "Arbais the Stonethorn",
+      "status": "fetch_failed"
+    },
+    {
+      "champion_key": "embrys",
+      "name": "Embrys The Anomaly",
+      "status": "partial"
+    },
+    {
+      "champion_key": "gharol_bloodmaul",
+      "name": "Gharol Bloodmaul",
+      "status": "fetch_failed"
+    },
+    {
+      "champion_key": "mezomel_luperfang",
+      "name": "Mezomel Luperfang",
+      "status": "fetch_failed"
+    },
+    {
+      "champion_key": "siegfrund_the_nephilim",
+      "name": "Siegfrund the Nephilim",
+      "status": "fetch_failed"
+    },
+    {
+      "champion_key": "embrys_the_anomaly",
+      "name": "Embrys The Anomaly",
+      "status": "partial"
+    },
+    {
+      "champion_key": "ash_nar_dragonsoul",
+      "name": "Ash’nar Dragonsoul",
+      "status": "partial"
+    }
+  ],
+  "alias_groups": [
+    {
+      "source_url": "https://hellhades.com/raid/champions/april-oneil",
+      "keys": [
+        "april_oneil",
+        "april_o_neil"
+      ],
+      "statuses": {
+        "april_oneil": "detailed",
+        "april_o_neil": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/ashnar-dragonsoul",
+      "keys": [
+        "ashnar_dragonsoul",
+        "ash_nar_dragonsoul"
+      ],
+      "statuses": {
+        "ashnar_dragonsoul": "detailed",
+        "ash_nar_dragonsoul": "partial"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/embrys-the-anomaly",
+      "keys": [
+        "embrys",
+        "embrys_the_anomaly"
+      ],
+      "statuses": {
+        "embrys": "partial",
+        "embrys_the_anomaly": "partial"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/joan-the-luminant",
+      "keys": [
+        "joan",
+        "joan_the_luminant"
+      ],
+      "statuses": {
+        "joan": "detailed",
+        "joan_the_luminant": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/krokhad-the-throatripper",
+      "keys": [
+        "krokhad_the_throatripper",
+        "kro_khad_the_throatripper"
+      ],
+      "statuses": {
+        "krokhad_the_throatripper": "detailed",
+        "kro_khad_the_throatripper": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/krokmar-the-devourer",
+      "keys": [
+        "krokmar_the_devourer",
+        "krok_mar_the_devourer"
+      ],
+      "statuses": {
+        "krokmar_the_devourer": "detailed",
+        "krok_mar_the_devourer": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/lady-mikage",
+      "keys": [
+        "mikage",
+        "lady_mikage"
+      ],
+      "statuses": {
+        "mikage": "detailed",
+        "lady_mikage": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/losan-kleth",
+      "keys": [
+        "losan_kleth",
+        "losan_k_leth"
+      ],
+      "statuses": {
+        "losan_kleth": "detailed",
+        "losan_k_leth": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/mashalled",
+      "keys": [
+        "mashalled",
+        "ma_shalled"
+      ],
+      "statuses": {
+        "mashalled": "detailed",
+        "ma_shalled": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/mavara-the-web-diviner",
+      "keys": [
+        "mavara",
+        "mavara_the_web_diviner"
+      ],
+      "statuses": {
+        "mavara": "detailed",
+        "mavara_the_web_diviner": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/mithrala-lifebane",
+      "keys": [
+        "mithrala",
+        "mithrala_lifebane"
+      ],
+      "statuses": {
+        "mithrala": "detailed",
+        "mithrala_lifebane": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/nekhret-the-great",
+      "keys": [
+        "nekhret",
+        "nekhret_the_great"
+      ],
+      "statuses": {
+        "nekhret": "detailed",
+        "nekhret_the_great": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/packmaster-shyek",
+      "keys": [
+        "packmaster_shyek",
+        "packmaster_shy_ek"
+      ],
+      "statuses": {
+        "packmaster_shyek": "detailed",
+        "packmaster_shy_ek": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/pelops-the-victor",
+      "keys": [
+        "pelops",
+        "pelops_the_victor"
+      ],
+      "statuses": {
+        "pelops": "detailed",
+        "pelops_the_victor": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/sanguine-maria",
+      "keys": [
+        "maria",
+        "sanguine_maria"
+      ],
+      "statuses": {
+        "maria": "detailed",
+        "sanguine_maria": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/starsage-galathir",
+      "keys": [
+        "galathir",
+        "starsage_galathir"
+      ],
+      "statuses": {
+        "galathir": "detailed",
+        "starsage_galathir": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/theodosia-the-disgraced",
+      "keys": [
+        "theodosia",
+        "theodosia_the_disgraced"
+      ],
+      "statuses": {
+        "theodosia": "detailed",
+        "theodosia_the_disgraced": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/ultimate-deathknight",
+      "keys": [
+        "ultimate_death_knight",
+        "ultimate_deathknight"
+      ],
+      "statuses": {
+        "ultimate_death_knight": "detailed",
+        "ultimate_deathknight": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    },
+    {
+      "source_url": "https://hellhades.com/raid/champions/wight-queen-ankora",
+      "keys": [
+        "ankora",
+        "wight_queen_ankora"
+      ],
+      "statuses": {
+        "ankora": "detailed",
+        "wight_queen_ankora": "detailed"
+      },
+      "note": "Nie usuwać aliasów bez sprawdzenia loadera i istniejących profili."
+    }
+  ],
+  "verified_findings": [
+    {
+      "id": "V01",
+      "severity": "critical",
+      "champion_key": "predator",
+      "form": "base",
+      "skill": "A2",
+      "issue": "Warunek został zapisany jako efekt nakładany.",
+      "database_value": {
+        "buffs": [
+          "veil",
+          "perfect veil"
+        ],
+        "tags": [
+          "protection",
+          "support"
+        ]
+      },
+      "verified_fact": {
+        "operation": "ignore_def",
+        "value_percent": 15,
+        "condition": {
+          "actor_has_any_buff": [
+            "veil",
+            "perfect veil"
+          ]
+        },
+        "places_veil_with_this_skill": false,
+        "needs_initial_enemy_selection": true
+      },
+      "source_url": "https://hellhades.com/raid/champions/predator/"
+    },
+    {
+      "id": "V02",
+      "severity": "high",
+      "champion_key": "predator",
+      "form": "base",
+      "skill": "A1",
+      "issue": "Nagłówek Passive Effect zapisano jako debuff.",
+      "database_value": {
+        "kind": "debuff",
+        "name": "passive effect"
+      },
+      "verified_fact": {
+        "passive_trigger": "successful_evade",
+        "operation": "counterattack_with_A1",
+        "limit": "once_per_turn"
+      },
+      "source_url": "https://hellhades.com/raid/champions/predator/"
+    },
+    {
+      "id": "V03",
+      "severity": "critical",
+      "champion_key": "tekteon",
+      "form": "base",
+      "skill": "A3",
+      "issue": "Taunt i Poison Cloud błędnie zapisane jako debuffy.",
+      "database_value": {
+        "debuffs": [
+          "taunt",
+          "poison cloud"
+        ]
+      },
+      "verified_fact": {
+        "taunt": "self_buff",
+        "poison_cloud": "self_buff",
+        "shield": "allied_protection",
+        "extra_turn": true
+      },
+      "verification_limit": "Sprawdzono rodzaj i odbiorcę tych efektów; nie zweryfikowano w tym audycie wszystkich czasów trwania.",
+      "source_url": "https://hellhades.com/raid/champions/tekteon-fissureflesh/"
+    },
+    {
+      "id": "V04",
+      "severity": "high",
+      "champion_key": "tekteon",
+      "form": "base",
+      "skill": "A2",
+      "issue": "Wpis nie odróżnia Shatter na sobie od ignorowanych buffów przeciwnika i pomija wzrost cooldownów.",
+      "verified_fact": {
+        "shatter": "self_buff",
+        "shield_strengthen_increase_def": "bypassed_enemy_protection_not_granted",
+        "enemy_cooldown_increase_turns_per_hit": 2
+      },
+      "source_url": "https://hellhades.com/raid/champions/tekteon-fissureflesh/"
+    },
+    {
+      "id": "V05",
+      "severity": "critical",
+      "champion_key": "hierophant_lazarius",
+      "form": "base",
+      "issue": "Zdublowany Nest Of Vipers przesuwa numerację kolejnych aktywnych skilli.",
+      "database_value": {
+        "A2": "Nest Of Vipers",
+        "A3": "Nest Of Vipers",
+        "A4": "The Rift’s Gaze",
+        "A5": "Metamorph"
+      },
+      "verified_fact": {
+        "A2": "Nest of Vipers",
+        "A3": "The Rift’s Gaze",
+        "A4": "Metamorph",
+        "P": "Reality Shift"
+      },
+      "source_url": "https://hellhades.com/raid/champions/hierophant-lazarius/"
+    },
+    {
+      "id": "V06",
+      "severity": "critical",
+      "champion_key": "nell_blackteeth",
+      "form": "base",
+      "issue": "Pasywka dodatkowo zapisana jako aktywne A5.",
+      "database_value": {
+        "A5": "Blackteeth’s Buffet",
+        "P": "Blackteeth’s Buffet"
+      },
+      "verified_fact": {
+        "passive_skill": "Blackteeth’s Buffet",
+        "clickable": false
+      },
+      "source_url": "https://hellhades.com/raid/champions/nell-blackteeth/"
+    },
+    {
+      "id": "V07",
+      "severity": "critical",
+      "champion_key": "blood_marchioness_mina",
+      "issue": "Pod nazwą Miny zapisano zestaw skilli Arne the White. Dotyczy obu form.",
+      "database_value": {
+        "base": [
+          "Song of Steel",
+          "White-Hot Rage",
+          "Arctic Howl",
+          "Metamorph",
+          "Will Of The Tundra"
+        ],
+        "alternate": [
+          "Tempest Of Swords",
+          "Goading Roar",
+          "Glacial Rupture",
+          "Metamorph",
+          "Bear-Heart"
+        ]
+      },
+      "verified_fact": {
+        "base_active_skills": [
+          "Hatespine",
+          "Crimson Steel",
+          "Hemaelstrom"
+        ],
+        "base_passives": [
+          "Metamorph",
+          "Engine of Murder"
+        ],
+        "transform_trigger": "revived_by_skill_effect_or_revive_on_death"
+      },
+      "verification_limit": "Nazwy i mechanika formy bazowej porównane ze stroną Miny; druga forma w pliku także zawiera zestaw Arnego, lecz nie przepisano tutaj pełnego poprawnego zestawu drugiej formy.",
+      "source_url": "https://hellhades.com/raid/champions/blood-marchioness-mina/"
+    },
+    {
+      "id": "V08",
+      "severity": "high",
+      "champion_key": "arbiter",
+      "form": "base",
+      "skill": "A2",
+      "issue": "Brak operacji skrócenia czasu buffów przeciwników.",
+      "database_value": {
+        "effects": []
+      },
+      "verified_fact": {
+        "operation": "decrease_enemy_buff_duration"
+      },
+      "source_url": "https://hellhades.com/raid/champions/arbiter/"
+    },
+    {
+      "id": "V09",
+      "severity": "high",
+      "champion_key": "arbiter",
+      "form": "base",
+      "skill": "A3",
+      "issue": "Heal zapisany bez warunku HP oraz bez wskazania podstawy procentu.",
+      "database_value": {
+        "heal_percent": 25,
+        "target": ""
+      },
+      "verified_fact": {
+        "heal_percent": 25,
+        "basis": "ally_max_hp",
+        "condition": "ally_HP_below_50_percent"
+      },
+      "source_url": "https://hellhades.com/raid/champions/arbiter/"
+    }
+  ],
+  "structural_review": {
+    "cooldown_booked_above_base": {
+      "count": 449,
+      "classification": "convention_inconsistency_review_required",
+      "entries": [
+        {
+          "champion_key": "alaz_the_sunbearer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "anaxia_the_reborn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "androc_the_glorious",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "aphidus_the_hivelord",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "arachoa_moonspinner",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "arne_the_white",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ashnar_dragonsoul",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "blood_marchioness_mina",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cinda_forgeheart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "embrys",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "fjorad_wolfheart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "frolni_the_mechanist",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "galleus_bloodcrest",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gizmak_the_terrible",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hierophant_lazarius",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "joan",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "karnage_the_anarch",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "komidus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kurosa_the_covetous",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mikage",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nais",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nell_blackteeth",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "krixia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "polara_fireheart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sabrael_the_distant",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "galathir",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "the_calamitus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "theodosia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "toshiro_the_bloody",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "abbess",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "acelin_the_stalwart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "acrizia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "admiral_blacktusk",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ailil",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "alatreon_blademaster",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "aleksandr_the_sharpshooter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "alice_the_wanderer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "alsgor_crimsonhorn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "altan",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "amoch_the_first_satrap",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "angar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "april_oneil",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "aragaz_wyldking",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "arashi_the_riptide",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "aratheia_corpseflower",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "arbiter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "archbishop_pinthroy",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "arix",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "armanz_the_magnificent",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "arnorn_the_shining",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "artak",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "astralith",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "astralon",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "authoratrix_lamasu",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ba_satha",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bad_el_kazar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "baerd_the_broad",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "balar_the_lost",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bambus_fourleaf",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "baron",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "basileus_roanas",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "basim_ibn_ishaq",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bayek",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "belanor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "belletar_mage_slayer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "belz_the_reckoner",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "big_un",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bivald_of_the_thorn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "black_knight",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bladechorister_caldor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "blind_seer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "blizaar_the_howler",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bloodgorged",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bolint_freewalker",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "boragar_the_elder",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "brakus_the_shifter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "brewguard_jeroboam",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "bystophus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "candraphon",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "caoilte_the_asharrow",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cardiel",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cecilia_the_red_hope",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "chaagur",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "chalco_the_blind",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cheshire_cat",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "chronicler_adelyn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cillian_the_lucky",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "claidna",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cleopterix",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "corvis_the_corruptor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "countess_lix",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "craklin_the_blackened",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "crohnam",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cromax_moonblood",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cruetraxa",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "crypt_king_graal",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "cupidus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "danag_skullreap",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "deliana",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "diamant_coppercoin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "donatello",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "dorothy_gale",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "dracomorph",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "drexthar_bloodtwin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "drokgul_the_gaunt",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "duchess_lilitu",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "dune_herald_zaharis",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "dune_lord_greggor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "edward_kenway",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "elder_skarg",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "elegaius",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "elenaril",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "elva_autumnborn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "emic_trunkheart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "eostrid_dreamsong",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "errol",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "esme_the_dancer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ezio_auditore",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "falmond_mournsword",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "fatalis_blademaster",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "firrol_the_barkhorn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "first_ax_tuskkor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "first_ax_tuskkor",
+          "form": "base",
+          "skill": "P",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "folan_silverhart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "foli",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "fortus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "freyja_fateweaver",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "fu_shan",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "fyna_blade_of_aravia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gaellut_son_of_the_pact",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gaius_the_gleeful",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gamuran",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gaspard_the_accused",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "genzin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "georgid_the_breaker",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ghostborn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "giath_the_truthshield",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ginro_the_stork",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "glaicad_of_the_meltwater",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gliseah",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "glorious_pallas",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gnishak_verminlord",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gnut",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "goffred_brassclad",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gomlok_skyhide",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "graazur_irongut",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gracchos_turn_drake",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "grand_oak_padraig",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "granyt_doorkeep",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "greathoof_loriaca",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "greenwarden_ruarc",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gretel_hagbane",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "grohak_the_bloodied",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gronjarr",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "grugtha_darkseer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gurgoh_the_augur",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gurptuk_moss_beard",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "guurda_bogbrew",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "gwyndolin_the_silent",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "haggibah_the_nestmaid",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hakkorhn_smashlord",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hansel_witchhunter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "harima",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "harvest_jack",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hegemon",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "helicath",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "helior",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hephraak",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "high_keeper_prysma",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "highmother_maud",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hilvi_the_rime_called",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "holsring",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "hurndig",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ignatius",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "inithwe_bloodtwin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "iron_brago",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ishiyama_the_immovable",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ithos",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "iudex_artor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "jagg_bonesaw",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "jetni_the_giant",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "jingwon",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "jintoro",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kaja_the_wry",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kalvalax",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kantra_the_cyclone",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "karato_foxhunter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "karilon_the_ringer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kassandra",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kawn_branchbreaker",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "keberon_the_underflame",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "keeyra_the_watcher",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kerin_the_harvester",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "khoronar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "king_gallcobar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "king_garog",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "klaazag_keyhulk",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "knave_of_hearts",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "knosson_the_bronze_bull",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "konstantin_the_dayborn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "korugar_death_bell",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kosk_of_two_skins",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kreela_witch_arm",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "krisk_the_ageless",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "krokhad_the_throatripper",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "krokmar_the_devourer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kroz_wallbreaker",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kyoku",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lady_kimi",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lady_of_ireth",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lanakis_the_chosen",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "legate_teox",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "leminisi_the_gold_wing",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "leonardo",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "leorius_the_proud",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "little_miss_annie",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lonatharil",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "longbeard",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lord_champfort",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "fabian",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lord_shazar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "losan_kleth",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "losan_kleth",
+          "form": "base",
+          "skill": "P",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lugan_the_steadfast",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lydia_the_deathsiren",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lysanthir_beastbane",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lyssandra",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mad_hatter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "maranix",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "marichka_the_unbreakable",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "marius",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "martyr",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "masahiro_the_bell_monk",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mashalled",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mathias_blackflail",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "matriarch_zarguna",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "maulie_tankard",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mavara",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "michelangelo",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "michinaki",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mighty_ukko",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "minaya",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mithrala",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "miyoko_flower_of_yakai",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "modo_of_the_peal",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "morrigaine",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mortu_macaab",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mother_cybele",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mountain_king",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nari_the_lucky",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "narma_the_returned",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nekhret",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nekmo_thaar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nethril",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "niamhe_spear_of_nyresa",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ninja",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nobel",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "noct_the_paralyzer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nogdar_the_headhunter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "noldua_the_gloaming",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "norog",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "odin_faefather",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "oella",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "onryo_ieyasu",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "opardin_clanfather",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "osgrun_the_defiler",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "owein_winterflame",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ozilda_the_wicked",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "packmaster_shyek",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pelagus_the_wavewalker",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pelops",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pheidi_tealcrest",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "phemo_the_shepherd",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pontiff_augustin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "praeva_the_slitherer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "predator",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "prince_kymar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pythion",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pyxniel",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "queen_eva",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "queen_of_hearts",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "quintus_the_triumphant",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "quintus_the_triumphant",
+          "form": "base",
+          "skill": "P",
+          "base": -1,
+          "booked": 1
+        },
+        {
+          "champion_key": "r_nergigante_archer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "rae",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "raf_matab",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ragash",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "raglin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "rakka_viletide",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ramantu_drakesblood",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "raphael",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "rathalos_blademaster",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "razelvarg",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "rhaia_the_mourned",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "rhazin_scarhide",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "richtoff_the_bold",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "riho_bonespear",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "robar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ronda",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "roric_wyrmbane",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "roshcard_the_tower",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "rotos_the_lost_groom",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "roxam",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "royal_huntsman",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ruel_the_huntmaster",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "saito",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "samar_gemcursed",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "samson_the_masher",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "maria",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "scyl_of_the_drakes",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "searsha_the_charred",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "senna_amberheart",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "septimus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sethallia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "shamrock",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "shemnath",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "shirimani",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "shredder",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "shu_zhen",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sicia_flametongue",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sigmund_the_highshield",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "siphi",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sir_nicholas",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "skartorsis",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "skeletor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "skorid_the_halfspawn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "skull_lord_var_gall",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sniktraak",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "solanar_the_gleaming",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "soulless",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "staltus_dragonbane",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "stokk_the_broken",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "stokk_the_broken",
+          "form": "base",
+          "skill": "P",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "storm_herald_hekaton",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "strategos_islin",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sulfuryion",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sun_wukong",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "supreme_athel",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "supreme_elhain",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "supreme_galek",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "supreme_kael",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "suzerain_katonn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "swarmspeaker_zyclic",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sydax_king_killer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "talenna_soulseer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "taras_the_fierce",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tatsu",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tatura_rimehide",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "teela_goremane",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tekteon",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "teodor_the_savant",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tetsuya_the_deliverer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "teumesia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "thayla_hammerhorn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "the_cowardly_lion",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "the_incarnate",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "the_scarecrow",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "the_tin_woodman",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "thea_the_tomb_angel",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tholin_foulbeard",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "thor_faehammer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "thralia_she_who_stands",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "timit_the_fool",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "titus_blackplume",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "togron_the_conjoined",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tomb_lord",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tormin_the_cold",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tramaria",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tribune_herakletes",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "truath",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "trunda_giltmallet",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tuhanarak",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "turvold",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "tyrant_ixlimor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ugir_the_wyrmeater",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ultan_of_the_shell",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ultimate_death_knight",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "underpriest_brogni",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "urost_the_soulcage",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ursuga_warcaller",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "uzol_of_the_jade",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "valkanen",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "valkyrie",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vallaryn_the_equalizer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "varkos_headsplitter",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "varl_the_destroyer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vasal_of_the_seal",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vault_keeper_wixwell",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "venalicia_thrallmother",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "venus",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vergumkaar",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "versulf_the_grim",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vestele",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "visix_the_unbowed",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vitrius_the_anointed",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vizier_ovelis",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vizug_the_noxious",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vlad_the_nightborn",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "vulkanos_fumor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "walking_tomb_dreng",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "wallmaster_othorion",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "war_mother",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "warchief",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "warlord",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "wight_king_narses",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ankora",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "wurlim_frostking",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "wythir_the_crowned",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "xena_warrior_princess",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "xenomorph",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "xiloco_the_encrusted",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "yakarl_the_scourge",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "yannica",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "yncensa_grail_bearer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "yoshi_the_drunkard",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "yukimasa_demon_of_ice",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "yumeko",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "zavia",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "zinogre_blademaster",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mithrala_lifebane",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "mavara_the_web_diviner",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lady_mikage",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "orynyx_mindcrawler",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "starsage_galathir",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ma_shalled",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "nekhret_the_great",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "lady_noelle",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "theodosia_the_disgraced",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "kro_khad_the_throatripper",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "embrys_the_anomaly",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "sanguine_maria",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "pelops_the_victor",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "joan_the_luminant",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "aria_the_golden_hope",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "celendiel_the_opal_guardian",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "khamir_scald_eye",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "theimios_the_everdrinker",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "holguk_of_the_hallowsights",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "heinrik_demondoom",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ultimate_deathknight",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "krok_mar_the_devourer",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "wight_queen_ankora",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "loki_the_deceiver",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "losan_k_leth",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "losan_k_leth",
+          "form": "base",
+          "skill": "P",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "xalgaze_fangwall",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "packmaster_shy_ek",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "april_o_neil",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        },
+        {
+          "champion_key": "ash_nar_dragonsoul",
+          "form": "base",
+          "skill": "A1",
+          "base": 0,
+          "booked": 1
+        }
+      ]
+    },
+    "duplicate_skill_names_same_form": [
+      {
+        "champion_key": "hierophant_lazarius",
+        "form": "base",
+        "skill_keys": [
+          "A2",
+          "A3"
+        ],
+        "names": [
+          "Nest Of Vipers",
+          "Nest Of Vipers"
+        ]
+      },
+      {
+        "champion_key": "nell_blackteeth",
+        "form": "base",
+        "skill_keys": [
+          "A5",
+          "P"
+        ],
+        "names": [
+          "Blackteeth's Buffet",
+          "Blackteeth's Buffet"
+        ]
+      },
+      {
+        "champion_key": "sabrael_the_distant",
+        "form": "base",
+        "skill_keys": [
+          "A5",
+          "P"
+        ],
+        "names": [
+          "Is That... It?",
+          "Is That... It?"
+        ]
+      }
+    ],
+    "active_slots_above_A4": [
+      {
+        "champion_key": "hierophant_lazarius",
+        "form": "base",
+        "skill": "A5",
+        "name": "Metamorph",
+        "source_skill_type": "Active"
+      },
+      {
+        "champion_key": "nell_blackteeth",
+        "form": "base",
+        "skill": "A5",
+        "name": "Blackteeth's Buffet",
+        "source_skill_type": "Active"
+      },
+      {
+        "champion_key": "sabrael_the_distant",
+        "form": "base",
+        "skill": "A5",
+        "name": "Is That... It?",
+        "source_skill_type": "Active"
+      }
+    ],
+    "aura_inside_skills": [
+      {
+        "champion_key": "frolni_the_mechanist",
+        "form": "base",
+        "skill": "AURA",
+        "name": "AURA"
+      },
+      {
+        "champion_key": "mikage",
+        "form": "alternate",
+        "skill": "P2",
+        "name": "AURA"
+      },
+      {
+        "champion_key": "eostrid_dreamsong",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "iron_brago",
+        "form": "base",
+        "skill": "AURA",
+        "name": "(Aura)"
+      },
+      {
+        "champion_key": "mashalled",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "mavara",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "skartorsis",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "skeletor",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "underpriest_brogni",
+        "form": "base",
+        "skill": "AURA",
+        "name": "(Aura)"
+      },
+      {
+        "champion_key": "wight_king_narses",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "mavara_the_web_diviner",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      },
+      {
+        "champion_key": "lady_mikage",
+        "form": "alternate",
+        "skill": "P2",
+        "name": "AURA"
+      },
+      {
+        "champion_key": "ma_shalled",
+        "form": "base",
+        "skill": "AURA",
+        "name": "Aura"
+      }
+    ],
+    "section_labels_parsed_as_effects": {
+      "count": 135,
+      "entries": [
+        {
+          "champion_key": "arne_the_white",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "arne_the_white",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "hierophant_lazarius",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "hierophant_lazarius",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "joan",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "joan",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "karnage_the_anarch",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 50.0
+          }
+        },
+        {
+          "champion_key": "kurosa_the_covetous",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "kurosa_the_covetous",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "galathir",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "galathir",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "alice_the_wanderer",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "alice_the_wanderer",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "april_oneil",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 25.0
+          }
+        },
+        {
+          "champion_key": "april_oneil",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "april_oneil",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "arashi_the_riptide",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "arashi_the_riptide",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": 20.0
+          }
+        },
+        {
+          "champion_key": "arnorn_the_shining",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "arnorn_the_shining",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "astralith",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "astralith",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "bambus_fourleaf",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 50.0
+          }
+        },
+        {
+          "champion_key": "bambus_fourleaf",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "blizaar_the_howler",
+          "form": "base",
+          "skill": "A4",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "blizaar_the_howler",
+          "form": "base",
+          "skill": "A4",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "brakus_the_shifter",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "brakus_the_shifter",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "brewguard_jeroboam",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "brewguard_jeroboam",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "candraphon",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "candraphon",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "cecilia_the_red_hope",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "cecilia_the_red_hope",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "cheshire_cat",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "cheshire_cat",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "crohnam",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "crohnam",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "deliana",
+          "form": "base",
+          "skill": "A4",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "deliana",
+          "form": "base",
+          "skill": "A4",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "donatello",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "donatello",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "drokgul_the_gaunt",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 3,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "drokgul_the_gaunt",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "esme_the_dancer",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 15.0
+          }
+        },
+        {
+          "champion_key": "esme_the_dancer",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": 30.0
+          }
+        },
+        {
+          "champion_key": "fortus",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "fortus",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "freyja_fateweaver",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "freyja_fateweaver",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "ginro_the_stork",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "ginro_the_stork",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "graazur_irongut",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "graazur_irongut",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "gretel_hagbane",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "gretel_hagbane",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "gronjarr",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "gronjarr",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "hansel_witchhunter",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "hansel_witchhunter",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "helicath",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "kassandra",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "keberon_the_underflame",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "keberon_the_underflame",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "kerin_the_harvester",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "kerin_the_harvester",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "leorius_the_proud",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "leorius_the_proud",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "fabian",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "lydia_the_deathsiren",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": 75.0
+          }
+        },
+        {
+          "champion_key": "lydia_the_deathsiren",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 75.0
+          }
+        },
+        {
+          "champion_key": "marichka_the_unbreakable",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "mavara",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 50.0
+          }
+        },
+        {
+          "champion_key": "miyoko_flower_of_yakai",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "miyoko_flower_of_yakai",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "noct_the_paralyzer",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": 2,
+            "chance_percent": 75.0
+          }
+        },
+        {
+          "champion_key": "osgrun_the_defiler",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "osgrun_the_defiler",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "owein_winterflame",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "owein_winterflame",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "pelops",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "pelops",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "phemo_the_shepherd",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "phemo_the_shepherd",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "predator",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "pyxniel",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "pyxniel",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "rakka_viletide",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "rakka_viletide",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "ronda",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "roric_wyrmbane",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "shredder",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "shredder",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": 100.0
+          }
+        },
+        {
+          "champion_key": "solanar_the_gleaming",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 80.0
+          }
+        },
+        {
+          "champion_key": "taras_the_fierce",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "taras_the_fierce",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "taras_the_fierce",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "the_cowardly_lion",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "the_cowardly_lion",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "the_cowardly_lion",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "the_scarecrow",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "the_scarecrow",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "thralia_she_who_stands",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 3,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "thralia_she_who_stands",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "tormin_the_cold",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 20.0
+          }
+        },
+        {
+          "champion_key": "tormin_the_cold",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "valkanen",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "valkanen",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "vallaryn_the_equalizer",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "vallaryn_the_equalizer",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "xena_warrior_princess",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "xena_warrior_princess",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": 100.0
+          }
+        },
+        {
+          "champion_key": "xenomorph",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "yakarl_the_scourge",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "yakarl_the_scourge",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 1,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "yumeko",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 80.0
+          }
+        },
+        {
+          "champion_key": "zinogre_blademaster",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "zinogre_blademaster",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "mavara_the_web_diviner",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 50.0
+          }
+        },
+        {
+          "champion_key": "orynyx_mindcrawler",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "orynyx_mindcrawler",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "starsage_galathir",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "starsage_galathir",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "pelops_the_victor",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "pelops_the_victor",
+          "form": "base",
+          "skill": "A3",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "joan_the_luminant",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "joan_the_luminant",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "aria_the_golden_hope",
+          "form": "base",
+          "skill": "A1",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 75.0
+          }
+        },
+        {
+          "champion_key": "celendiel_the_opal_guardian",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "celendiel_the_opal_guardian",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "loki_the_deceiver",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": 2,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "loki_the_deceiver",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "april_o_neil",
+          "form": "base",
+          "skill": "A2",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": 25.0
+          }
+        },
+        {
+          "champion_key": "april_o_neil",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "passive effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        },
+        {
+          "champion_key": "april_o_neil",
+          "form": "base",
+          "skill": "P",
+          "effect": {
+            "kind": "debuff",
+            "name": "active effect",
+            "duration_turns": null,
+            "chance_percent": null
+          }
+        }
+      ]
+    },
+    "dedicated_condition_fields": {
+      "skill_count_with_condition_fields": 0,
+      "searched_keys": [
+        "condition",
+        "conditions",
+        "only_if",
+        "requires",
+        "trigger",
+        "triggers",
+        "unless",
+        "when"
+      ]
+    },
+    "ranking_field_paths": []
+  },
+  "updater_errors_from_uploaded_report": {
+    "Arbais the Stonethorn": "no parsed skills",
+    "Gharol Bloodmaul": "no parsed skills",
+    "Mezomel Luperfang": "no parsed skills",
+    "Siegfrund the Nephilim": "no parsed skills",
+    "He-Man": "no parsed skills",
+    "Khamir the Scaled Eye": "not matched in HellHades identity API"
+  },
+  "recommended_next_steps": [
+    "Naprawić rozpoznawanie tożsamości przed przypisaniem zestawu skilli (Mina/Arne).",
+    "Oddzielić aktywne skille, pasywki, aurę i transformacje warunkowe.",
+    "Rozróżniać nakładanie, usuwanie, ignorowanie oraz wymaganie buffa/debuffa, zamiast tagować każde wspomnienie jako efekt.",
+    "Zachować warunki, cel i kolejność efektów oraz rozdzielić szansę bazową i po bookach.",
+    "Uzupełnić brakujące postacie i drugą formę Embrysa; wykorzystać istniejącą pełniejszą formę Ashnara przez wspólny rekord kanoniczny.",
+    "Po otrzymaniu kodu z gałęzi naprawić importer i loader, ponownie wygenerować bazę oraz sprawdzić integrację z legalnością akcji i wyborem template’ów."
+  ],
+  "references": [
+    {
+      "url": "https://hellhades.com/raid/champions/arbiter/",
+      "accessed_at": "2026-10-16",
+      "purpose": "mechanics_and_skill_identity_only_no_rankings"
+    },
+    {
+      "url": "https://hellhades.com/raid/champions/tekteon-fissureflesh/",
+      "accessed_at": "2026-10-16",
+      "purpose": "mechanics_and_skill_identity_only_no_rankings"
+    },
+    {
+      "url": "https://hellhades.com/raid/champions/predator/",
+      "accessed_at": "2026-10-16",
+      "purpose": "mechanics_and_skill_identity_only_no_rankings"
+    },
+    {
+      "url": "https://hellhades.com/raid/champions/hierophant-lazarius/",
+      "accessed_at": "2026-10-16",
+      "purpose": "mechanics_and_skill_identity_only_no_rankings"
+    },
+    {
+      "url": "https://hellhades.com/raid/champions/nell-blackteeth/",
+      "accessed_at": "2026-10-16",
+      "purpose": "mechanics_and_skill_identity_only_no_rankings"
+    },
+    {
+      "url": "https://hellhades.com/raid/champions/blood-marchioness-mina/",
+      "accessed_at": "2026-10-16",
+      "purpose": "mechanics_and_skill_identity_only_no_rankings"
+    }
+  ]
+}

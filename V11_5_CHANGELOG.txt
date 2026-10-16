@@ -1,0 +1,6 @@
+V11.5
+- PERF[PICK] wyłączony podczas fazy wyboru championów.
+- Watchdog nie obserwuje tury przeciwnika jako braku postępu.
+- Watchdog nie zapisuje screenshotów podczas opponent turn.
+- Krótkie transition/loading między turami również resetuje watchdog bez screenshotu.
+- Watchdog wraca do normalnej pracy dopiero po rozpoczęciu własnej tury.

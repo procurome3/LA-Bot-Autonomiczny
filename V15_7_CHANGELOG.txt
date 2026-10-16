@@ -1,0 +1,8 @@
+V15.7 — HELLO WORLD startup greeting
+======================================
+- Restored: HELLO WORLD!
+- Purple: RGB(190, 80, 255)
+- ANSI italic
+- Printed exactly once whenever arenalive.py is started directly.
+- Works regardless of active draft profile, including the 'symbiont' launcher.
+- No combat/draft logic changed.

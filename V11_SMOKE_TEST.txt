@@ -1,0 +1,21 @@
+V11 OFFLINE SMOKE TEST
+========================
+Źródło: 20260929-1318-12.3522354.mp4, klatka testowa 1024x769
+
+active ally slot: 1
+ring ratios:
+  slot1 = 0.01603
+  slot2 = 0.00000
+  slot3 = 0.00000
+  slot4 = 0.00000
+
+physical skill circles:
+  S1 center=(714, 705), radius=42
+  S2 center=(833, 712), radius=48
+  S3 center=(953, 706), radius=38
+
+Wniosek:
+- zielony ring aktywnej postaci jest wykrywany poprawnie,
+- V11 widzi fizyczne przyciski skilli na nagraniu,
+- rozpoznawanie template odbywa się dopiero wewnątrz tych realnych slotów,
+  zamiast przez globalne przeszukiwanie całego paska.
