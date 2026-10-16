@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "champions": {
+    "fabian": {"roles":["control","damage","lockout"],"base_pick":82,"threat":88,"leader":58,"speed_pressure":55,"damage":78,"control":90,"lockout":88,"counters":{"marius":8,"krixia":6},"vulnerable_to":{"gliseah":12},"synergy":{"predator":7,"arbiter":6}},
+    "arbiter": {"roles":["speed","revive","support","turn_meter"],"base_pick":83,"threat":80,"leader":95,"speed_pressure":94,"support":80,"revive":88,"turn_meter":94,"synergy":{"fabian":8,"predator":7,"vestele":5}},
+    "vestele": {"roles":["damage","control","strip"],"base_pick":77,"threat":76,"damage":84,"control":66,"strip":65,"counters":{"tekteon":10},"synergy":{"arbiter":5,"fabian":4}},
+    "tekteon": {"roles":["support","control","protection"],"base_pick":73,"threat":72,"support":76,"control":70,"protection":70,"synergy":{"fabian":5,"predator":4}},
+    "komidus": {"roles":["damage","control","transform"],"base_pick":81,"threat":86,"damage":92,"control":72,"counters":{"bomb":5},"synergy":{"arbiter":5,"siphi":4}},
+    "predator": {"roles":["damage","anti_revive"],"base_pick":84,"threat":91,"damage":95,"anti_revive":72,"counters":{"marius":8,"fabian":4},"synergy":{"fabian":8,"arbiter":6}},
+    "mavara": {"roles":["revive","support","speed"],"base_pick":72,"threat":70,"leader":82,"speed_pressure":66,"support":75,"revive":82,"synergy":{"predator":4}},
+    "cruetraxa": {"roles":["damage","anti_revive"],"base_pick":74,"threat":78,"damage":90,"anti_revive":65,"counters":{"odin":12}},
+    "pelops": {"roles":["support","protection"],"base_pick":65,"threat":60,"support":72,"protection":76},
+    "siphi": {"roles":["speed","revive","support","cleanse"],"base_pick":89,"threat":91,"leader":82,"speed_pressure":92,"support":92,"revive":92,"cleanse":78,"synergy":{"komidus":7}},
+    "gliseah": {"roles":["control","protection","anti_lockout"],"base_pick":80,"threat":79,"control":78,"protection":72,"counters":{"fabian":15,"krixia":12}},
+    "marius": {"roles":["damage","control","support"],"base_pick":87,"threat":94,"leader":72,"damage":92,"control":82,"support":55},
+    "krixia": {"roles":["control","lockout","speed","transform"],"base_pick":88,"threat":95,"speed_pressure":88,"control":95,"lockout":92},
+    "yumeko": {"roles":["control","lockout","support"],"base_pick":86,"threat":93,"control":94,"lockout":96,"support":65},
+    "nekhret": {"roles":["protection","support"],"base_pick":84,"threat":82,"durability":94,"protection":98,"support":78},
+    "harvest_jack": {"roles":["control","damage"],"base_pick":67,"threat":69,"control":78,"damage":62},
+    "joan": {"roles":["revive","support","protection"],"base_pick":78,"threat":78,"revive":82,"support":78,"protection":70},
+    "solonar": {"roles":["control","protection"],"base_pick":70,"threat":86,"control":88,"protection":76},
+    "sabrael": {"roles":["damage","control"],"base_pick":72,"threat":87,"damage":90,"control":70},
+    "shu_zhen": {"roles":["speed","turn_meter","support"],"base_pick":83,"threat":92,"speed_pressure":98,"turn_meter":96,"support":72,"synergy":{"marius":8,"krixia":6}},
+    "odin": {"roles":["control","damage"],"base_pick":83,"threat":90,"damage":82,"control":90},
+    "talenna": {"roles":["damage","control"],"base_pick":78,"threat":84,"damage":85,"control":75},
+    "hekaton": {"roles":["protection","control"],"base_pick":78,"threat":82,"protection":88,"control":70},
+    "hegemon": {"roles":["speed","control","lockout"],"base_pick":80,"threat":92,"speed_pressure":100,"control":84,"lockout":78},
+    "marichka": {"roles":["revive","cleanse","support"],"base_pick":91,"threat":95,"revive":98,"cleanse":95,"support":96},
+    "nais": {"roles":["damage","durability"],"base_pick":85,"threat":91,"damage":92,"durability":90},
+    "nell": {"roles":["control","support"],"base_pick":79,"threat":84,"control":84,"support":72},
+    "hilvi": {"roles":["control","support"],"base_pick":77,"threat":82,"control":80,"support":72},
+    "gharol": {"roles":["damage","transform"],"base_pick":86,"threat":92,"damage":96},
+    "gizmak": {"roles":["damage","control","transform"],"base_pick":86,"threat":92,"damage":90,"control":82},
+    "lazarus": {"roles":["support","revive","transform"],"base_pick":85,"threat":89,"support":88,"revive":84},
+    "arbais": {"roles":["support","control","transform"],"base_pick":84,"threat":88,"support":84,"control":82},
+    "bayek": {"roles":["damage","control"],"base_pick":80,"threat":86,"damage":88,"control":70},
+    "karnage": {"roles":["damage","control"],"base_pick":88,"threat":95,"damage":96,"control":84}
+  },
+  "skills": {
+    "fabian": {
+      "A3":{"tags":["control","lockout","aoe","damage"],"base_utility":91,"cooldown_value":92,"opener_bonus":18,"preserve_if_one_enemy":20},
+      "A2":{"tags":["single","damage","control"],"base_utility":70,"cooldown_value":65,"finisher_bonus":8},
+      "A1":{"tags":["single","damage"],"base_utility":39,"finisher_bonus":10}
+    },
+    "arbiter": {
+      "A3":{"tags":["speed","turn_meter","support"],"base_utility":88,"cooldown_value":90,"opener_bonus":20},
+      "A4":{"tags":["revive","support"],"base_utility":96,"cooldown_value":100},
+      "A2":{"tags":["aoe","damage"],"base_utility":58,"cooldown_value":50},
+      "A1":{"tags":["single","damage"],"base_utility":34}
+    },
+    "vestele": {
+      "A3":{"tags":["aoe","damage","control"],"base_utility":84,"cooldown_value":82,"opener_bonus":10},
+      "A2":{"tags":["single","damage","control"],"base_utility":76,"cooldown_value":70,"finisher_bonus":9},
+      "A1":{"tags":["single","damage"],"base_utility":38}
+    },
+    "tekteon": {
+      "A3":{"tags":["support","protection"],"base_utility":82,"cooldown_value":78,"opener_bonus":12},
+      "A2":{"tags":["aoe","damage","control"],"base_utility":73,"cooldown_value":68},
+      "A1":{"tags":["aoe","damage"],"base_utility":40}
+    },
+    "komidus_f1": {
+      "A4":{"tags":["transform"],"base_utility":98,"cooldown_value":100,"opener_bonus":24},
+      "A1":{"tags":["single","damage"],"base_utility":34}
+    },
+    "komidus_f2": {
+      "A3":{"tags":["single","damage","control"],"base_utility":91,"cooldown_value":88,"finisher_bonus":10},
+      "A2":{"tags":["aoe","damage"],"base_utility":80,"cooldown_value":75},
+      "A1":{"tags":["single","damage"],"base_utility":39}
+    },
+    "predator": {
+      "A2":{"tags":["aoe","damage","anti_revive"],"base_utility":92,"cooldown_value":92,"opener_bonus":10},
+      "A3":{"tags":["single","damage"],"base_utility":76,"cooldown_value":70,"finisher_bonus":12},
+      "A1":{"tags":["single","damage"],"base_utility":40,"finisher_bonus":8}
+    },
+    "mavara": {
+      "A3":{"tags":["revive","support"],"base_utility":94,"cooldown_value":96},
+      "A2":{"tags":["support","protection"],"base_utility":74,"cooldown_value":70},
+      "A1":{"tags":["single","damage"],"base_utility":35}
+    },
+    "cruetraxa": {
+      "A2":{"tags":["single","damage","anti_revive"],"base_utility":88,"cooldown_value":85,"finisher_bonus":12},
+      "A1":{"tags":["single","damage","anti_revive"],"base_utility":47,"finisher_bonus":10}
+    },
+    "pelops": {
+      "A3":{"tags":["support","protection"],"base_utility":82,"cooldown_value":80,"opener_bonus":10},
+      "A2":{"tags":["single","damage"],"base_utility":61,"cooldown_value":55},
+      "A1":{"tags":["single","damage"],"base_utility":35}
+    },
+    "siphi": {
+      "A3":{"tags":["revive","support"],"base_utility":97,"cooldown_value":100},
+      "A2":{"tags":["speed","turn_meter","support"],"base_utility":90,"cooldown_value":90,"opener_bonus":18},
+      "A1":{"tags":["single","damage"],"base_utility":34}
+    },
+    "gliseah": {
+      "A3":{"tags":["support","protection","control"],"base_utility":88,"cooldown_value":90,"opener_bonus":15},
+      "A2":{"tags":["aoe","damage","control"],"base_utility":75,"cooldown_value":68},
+      "A1":{"tags":["single","damage"],"base_utility":36}
+    },
+    "nekhret": {
+      "A2":{"tags":["single","damage","control"],"base_utility":72,"cooldown_value":62},
+      "A3":{"tags":["support","protection"],"base_utility":92,"cooldown_value":96},
+      "A1":{"tags":["single","damage"],"base_utility":34}
+    },
+    "yumeko": {
+      "A3":{"tags":["control","lockout","aoe"],"base_utility":95,"cooldown_value":100,"opener_bonus":20},
+      "A1":{"tags":["single","damage","control"],"base_utility":42}
+    },
+    "harvest_jack": {
+      "A2":{"tags":["aoe","control","damage"],"base_utility":83,"cooldown_value":82},
+      "A3":{"tags":["aoe","control"],"base_utility":78,"cooldown_value":75},
+      "A1":{"tags":["single","damage"],"base_utility":38}
+    },
+    "embrys_f1": {
+      "A4":{"tags":["transform"],"base_utility":98,"cooldown_value":100,"opener_bonus":24},
+      "A1":{"tags":["aoe","damage"],"base_utility":40}
+    },
+    "embrys_f2": {
+      "A2":{"tags":["aoe","damage"],"base_utility":90,"cooldown_value":90},
+      "A3":{"tags":["single","damage","control"],"base_utility":78,"cooldown_value":72,"finisher_bonus":10},
+      "A1":{"tags":["single","damage"],"base_utility":38}
+    },
+    "marius": {
+      "A3":{"tags":["support","protection"],"base_utility":84,"cooldown_value":82,"opener_bonus":10},
+      "A2":{"tags":["aoe","damage","control"],"base_utility":90,"cooldown_value":90},
+      "A1":{"tags":["aoe","damage"],"base_utility":42}
+    }
+  }
+}

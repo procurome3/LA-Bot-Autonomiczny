@@ -1,0 +1,44 @@
+SYMBIONT PROFILE UPDATE — V15.5
+=================================
+
+USER REQUESTS APPLIED
+1. Added missing portrait templates from uploaded screenshots:
+   - Komidus (enemy/opponent)
+   - Tekteon (enemy/opponent)
+   - Shu-Zhen (enemy/opponent/ban)
+2. Added Odin condition:
+   - if enemy picked Odin -> bot prefers Cruetraxa
+3. Stored an Odin portrait template cropped from the supplied enemy-team screenshot.
+
+CURRENT COUNTER PICK ORDER
+- enemy Fabian  -> Gliseah > Predator
+- enemy Krixia  -> Gliseah > Predator
+- enemy Komidus -> Siphi
+- enemy Tekteon -> Vestele
+- enemy Marius  -> Fabian > Predator
+- enemy Odin    -> Cruetraxa
+
+TEMPLATE FILES ADDED
+- arena_live_enemy_komidus.png
+- arena_live_opponent_komidus.png
+- arena_live_enemy_tekteon.png
+- arena_live_opponent_tekteon.png
+- arena_live_enemy_shu_zhen.png
+- arena_live_opponent_shu_zhen.png
+- arena_live_ban_shu_zhen.png
+- arena_live_enemy_odin.png
+- arena_live_opponent_odin.png
+- arena_live_ban_odin.png
+
+VALIDATION
+- Symbiont profile JSON: OK
+- Main Python files compile: OK
+- Previously missing Komidus / Tekteon / Shu-Zhen conditions are now backed by templates.
+- Odin counter is now available immediately.
+
+NOTES
+- I used the exact single-portrait crops you uploaded for Komidus, Shu-Zhen and Tekteon.
+- The Odin template was cropped from your grouped enemy-team screenshot.
+- Other users can still use their own profiles unchanged.
+- To run Symbiont:
+  py arenalive.py --draft-profile symbiont

@@ -1,0 +1,1 @@
+& "$PSScriptRoot\INSTALL_PROFILE_COMMANDS.ps1"
